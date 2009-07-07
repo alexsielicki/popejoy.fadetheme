@@ -5,5 +5,3 @@ Overview
 --------
 
 Popejoy theme with background fade
-
-just a test
