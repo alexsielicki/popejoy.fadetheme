@@ -1,0 +1,31 @@
+Metadata-Version: 1.0
+Name: popejoy.fadetheme
+Version: 1.0dev
+Summary: Popejoy theme with background fade
+Home-page: http://svn.plone.org/svn/collective/
+Author: FosterMilo
+Author-email: alex@fostermilo.com
+License: GPL
+Description: popejoy.fadetheme Package Readme
+        =========================
+        
+        Overview
+        --------
+        
+        Popejoy theme with background fade
+        
+        Changelog for popejoy.fadetheme
+        
+        (name of developer listed in brackets)
+        
+        popejoy.fadetheme - 1.0 Unreleased
+        
+        - Initial package structure.
+        [zopeskel]
+        
+        
+Keywords: web zope plone theme
+Platform: UNKNOWN
+Classifier: Framework :: Plone
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules

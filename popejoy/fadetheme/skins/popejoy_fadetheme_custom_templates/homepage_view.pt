@@ -1,0 +1,120 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      lang="en"
+      metal:use-macro="here/main_template/macros/master"
+      i18n:domain="plone">
+<body>
+
+<metal:main fill-slot="main">
+    <tal:main-macro metal:define-macro="main"
+           tal:define="kssClassesView context/@@kss_field_decorator_view;
+                       getKssClasses nocall:kssClassesView/getKssClassesInlineEditable;
+                       templateId template/getId;
+                       text here/getText;">
+
+<div id="homepage-slideshow"
+	tal:define="header_images context/components/homepage-slideshow/getFolderContents|nothing;">
+	
+<script src="/smooth/mootools.v1.11.js" type="text/javascript" tal:attributes="src string:${context/portal_url}/smooth/mootools.v1.11.js"></script>
+<script src="/smooth/jd.gallery.js" type="text/javascript" tal:attributes="src string:${context/portal_url}/smooth/jd.gallery.js"></script> 
+<link rel="stylesheet" href="/smooth/jd.gallery.css" type="text/css" media="screen" tal:attributes="href string:${context/portal_url}/smooth/jd.gallery.css"/>
+	
+<div id="myGallery">
+
+<div class="imageElement" 
+     tal:repeat="item header_images">
+<img src="someimage.jpg" tal:attributes="src item/getURL|item/absolute_url" class="full" alt="" />
+</div>
+
+</div> 
+
+<script type="text/javascript">
+function startGallery() {
+var myGallery = new gallery($('myGallery'), {
+timed: true,
+showArrows: false,
+showCarousel: false,
+showInfopane: false,
+delay: 3500,
+embedLinks: false
+});
+}
+window.addEvent('domready', startGallery);
+</script> 
+</div>
+
+        <div tal:replace="structure provider:plone.abovecontenttitle" />
+
+        <h1 class="documentFirstHeading hiddenStructure"> 
+            <metal:field use-macro="python:here.widget('title', mode='view')">
+            Title
+            </metal:field>
+        </h1>
+
+        <div tal:replace="structure provider:plone.belowcontenttitle" />
+
+        <p class="documentDescription hiddenStructure">
+            <metal:field use-macro="python:here.widget('description', mode='view')">
+            Description
+            </metal:field>
+        </p>
+
+        <div tal:replace="structure provider:plone.abovecontentbody" />
+
+        <p tal:condition="python: not text and is_editable"
+           i18n:translate="no_body_text"
+           class="discreet">
+            This item does not have any body text, click the edit tab to change it.
+        </p>
+
+<div id="homepage-body-text">
+        <metal:field use-macro="python:here.widget('text', mode='view')">
+        Body text
+        </metal:field>
+</div>
+
+<div id="homepage-this-season-wrapper">
+<div id="homepage-this-season">
+<h2>Later This Season</h2>
+<div id="season-links">
+<a href="/2009-2010">View full season</a>
+|
+<a href="/tickets/season-tickets">Buy season tickets</a>
+</div>
+
+<div id="performance-listing-homepage"
+	tal:define="performances python:here.queryCatalog({'portal_type':'Performance',
+				'sort_on':'start', 'sort_limit':3})[:3];"
+	tal:condition="performances">
+
+<div class="performance" tal:repeat="performance performances">
+<a href="#" tal:attributes="href performance/getURL|performance/absolute_url;">
+                        <img src="" alt=""
+                             tal:define="performance_object performance/getObject;"
+                             tal:condition="exists:performance_object/aq_parent/image_mini"
+                             tal:replace="structure python: path('nocall:performance_object/tag')(scale='mini', css_class='homepagePerformanceImage')" />
+                    </a>
+<div class="performanceText">
+<div tal:content="performance/Title">[Performance Title]</div>
+<div tal:content="string: ${performance/start/Day}, ${performance/start/pCommon}">[Performance Date]</div>
+<div><a href="#" tal:attributes="href performance/getURL|performance/absolute_url;">Tickets & Info</a></div>
+</div>
+<div class="visualClear"><!-- --></div>
+</div>
+
+</div>
+</div>
+
+        <div metal:use-macro="here/document_relateditems/macros/relatedItems">
+            show related items if they exist
+        </div>
+
+        <div tal:replace="structure provider:plone.belowcontentbody" />
+
+    </tal:main-macro>
+</metal:main>
+
+</body>
+</html>
