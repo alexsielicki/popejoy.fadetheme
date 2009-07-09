@@ -174,7 +174,7 @@
     background-color: transparent;
     font-weight: normal;
     text-align: center;
-    line-height: 1.6em;
+    line-height: 37px;
     border-width: 0px;
     font-size: 17px;
     text-transform: uppercase;
@@ -184,7 +184,7 @@
 .portletCalendar #calendar-previous,
 .portletCalendar #calendar-next
 {
-    padding-top: 5px;
+    padding-top: 10px;
 
 }
 .portletCalendar #calendar-previous
