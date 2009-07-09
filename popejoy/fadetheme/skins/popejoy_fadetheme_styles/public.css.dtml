@@ -105,9 +105,10 @@ body.kssActive h1.formlibInlineEditable:hover {
 }
 
 .documentContent ul {
-    list-style-image: url(&dtml-portal_url;/bullet.gif);
+    list-style-image: url(&dtml-portal_url;/list-image.png);
     list-style-type: square;
-    margin: 0.5em 0 0 1.5em;
+    margin: 0.5em 0 0 21px;
+    line-height: 15px;
 }
 .documentContent ol {
     margin: 0.5em 0 0 2.5em;
@@ -975,7 +976,10 @@ textarea.proportional {
         -moz-border-radius: 9px; 
 }
 #portal-footer ul {
-	margin-left: 27px;
+	list-style-image: url(&dtml-portal_url;/list-image.png);
+    list-style-type: square;
+    margin: 0.5em 0 0 34px;
+    line-height: 15px;
 }
 #portal-footer a {
     color: &dtml-linkColor;;
