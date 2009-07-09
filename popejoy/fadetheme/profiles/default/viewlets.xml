@@ -39,5 +39,17 @@
     <viewlet name="plone.global_sections" />
 -->
   </hidden>
+  
+  <!-- We hide the one we want to move: hiding the path_bar from protaltop manager -->
+  <hidden manager="plone.portaltop" skinname="Popejoy Fade Theme">
+    <viewlet name="plone.path_bar" />
+  </hidden>
+
+<!-- Putting path_bar at the very top of contentviews manager -->
+<order manager="plone.contentviews" skinname="Popejoy Fade Theme"
+       based-on="Plone Default">
+    <viewlet name="plone.path_bar"
+             insert-before="*" />
+</order>
 
 </object>

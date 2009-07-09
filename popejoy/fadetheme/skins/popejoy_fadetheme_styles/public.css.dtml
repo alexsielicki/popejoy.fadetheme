@@ -52,6 +52,13 @@ body.kssActive h1.formlibInlineEditable:hover {
     padding: 1em 1em 2em 1em !important;
     background: &dtml-backgroundColor;;
 }
+/* #portal-breadcrumbs need same left&right paddding as .documentContent */
+.documentContent,
+#portal-breadcrumbs
+{
+    padding-left: 1em !important;
+    padding-right: 1em !important;;
+}
 #myGallery {
 	width: 685px;
 	height: 210px;
@@ -413,6 +420,7 @@ form.searchPage input.searchButton {
     margin: 0;
     height: 55px;
     line-height: normal;
+    overflow: hidden;
 }
 .section-front-page #portal-globalnav {
 	height: 48px;
@@ -522,10 +530,12 @@ form.searchPage input.searchButton {
 }
 #portal-breadcrumbs {
     /* The path bar, including breadcrumbs and add to favorites */
-    padding-left: 2em;
-    padding-right: 2em;
     text-transform: &dtml-textTransform;;
     line-height: 1.6em;
+}
+/* breadcrumbs need margin between edit controls */
+.documentEditable #portal-breadcrumbs {
+    margin-bottom: 12px;
 }
 .section-front-page #portal-breadcrumbs {
 	display: none;
