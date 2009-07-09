@@ -77,7 +77,7 @@ window.addEvent('domready', startGallery);
 
 <div id="homepage-this-season-wrapper">
 <div id="homepage-this-season">
-<h2>Later This Season</h2>
+<h2>Upcoming Shows</h2>
 <div id="season-links">
 <a href="/2009-2010">View full season</a>
 |
