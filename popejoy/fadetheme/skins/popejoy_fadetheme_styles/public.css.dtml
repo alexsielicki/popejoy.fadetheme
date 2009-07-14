@@ -64,6 +64,9 @@ body.kssActive h1.formlibInlineEditable:hover {
 	height: 210px;
 	overflow: hidden;
 }
+.slideElement {
+    cursor: pointer;
+}
 .section-front-page .documentContent {
 	padding: 0 !important;
 	position: relative;
