@@ -782,6 +782,8 @@ dl.searchResults span.documentByLine {
 .blueBorder {
     border: 5px solid &dtml-mediumBlueBackColor;;
     float: left;
+    clear: both;
+    margin: 0.5em 1em 0.5em 0;
 }
 /* The table used for listings - horizontal and vertical variants */
 table.listing,
