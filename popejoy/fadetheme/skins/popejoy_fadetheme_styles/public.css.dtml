@@ -779,7 +779,9 @@ dl.searchResults span.documentByLine {
 .portraitPhoto {
     border: 1px solid black;
 }
-
+.blueBorder {
+    border: 5px solid &dtml-mediumBlueBackColor;;
+}
 /* The table used for listings - horizontal and vertical variants */
 table.listing,
 .stx table {
