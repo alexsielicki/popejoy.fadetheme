@@ -92,22 +92,30 @@ window.addEvent('domready', startGallery);
 
 <div id="performance-listing-homepage"
 	tal:define="performances python:here.queryCatalog({'portal_type':'Performance',
-				'sort_on':'start', 'sort_limit':3})[:3];"
+				'sort_on':'start', 'sort_limit':3})[:3];
+				
+				
+				performances python:here.queryCatalog({'portal_type':'Performance',	'sort_on':'start', 'start': {'query': DateTime(), 'range': 'min'}});
+				
+				
+				"
 	tal:condition="performances">
-
+<div tal:content="context/getHomepageUpcomingShows">[upcoming shows script]</div>
 <div class="performance" tal:repeat="performance performances">
+<tal:performance-object tal:define="performance_object performance/getObject;">
 <a href="#" tal:attributes="href performance/getURL|performance/absolute_url;">
                         <img src="" alt=""
-                             tal:define="performance_object performance/getObject;"
                              tal:condition="exists:performance_object/aq_parent/image_mini"
                              tal:replace="structure python: path('nocall:performance_object/tag')(scale='mini', css_class='homepagePerformanceImage')" />
                     </a>
 <div class="performanceText">
 <div tal:content="performance/Title">[Performance Title]</div>
+PARENT ID<div tal:content="performance_object/aq_parent/UID">[parent id]</div>
 <div tal:content="string: ${performance/start/Day}, ${performance/start/pCommon}">[Performance Date]</div>
 <div><a href="#" tal:attributes="href performance/getURL|performance/absolute_url;">Tickets & Info</a></div>
 </div>
 <div class="visualClear"><!-- --></div>
+</tal:performance-object>
 </div>
 
 </div>
