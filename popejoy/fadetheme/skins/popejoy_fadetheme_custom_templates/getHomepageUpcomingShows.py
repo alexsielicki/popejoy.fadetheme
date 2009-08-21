@@ -8,4 +8,6 @@ for performance in performances:
     if performanceParentUID not in parentIds:
         parentIds.append(performanceParentUID)
         upcomingShows.append(performanceObject)
+    if len(upcomingShows) >= limit:
+        break
 return upcomingShows
