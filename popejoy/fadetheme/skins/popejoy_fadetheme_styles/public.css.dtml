@@ -644,6 +644,29 @@ form.searchPage input.searchButton {
     text-decoration: underline;
 }
 
+/* Season View */
+
+.template-season_view h2 a:hover {
+    text-decoration: underline;
+}
+.template-season_view #past-shows {
+    margin-top: 80px;
+}
+.template-season_view .pastShowImage {
+    float: left;
+}
+.template-season_view #past-shows h2 {
+    margin-top: 0;
+}
+.template-season_view .pastShowDescription {
+    margin-left: 233px;
+}
+
+/* Now Playing View */
+.template-nowplaying_view #performance {
+    clear: both;
+}
+
 /* Status messages */
 
 dl.portalMessage {
