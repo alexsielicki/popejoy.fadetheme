@@ -870,10 +870,12 @@ table.vertical td {
 }
 
 /* shows */
-#tix-box {
+.tixBox {
 	float: right;
 	text-align: center;
 	margin: 20px;
+	clear: right;
+	width: 150px;
 }
 #upcoming-performances {
 	margin: 20px 0;
