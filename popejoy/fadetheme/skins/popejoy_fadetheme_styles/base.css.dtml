@@ -162,5 +162,9 @@ del {
     text-decoration: line-through;
 }
 
+.template-month .jumpday {
+    display: none;
+}
+
 /* </dtml-with> */
 
