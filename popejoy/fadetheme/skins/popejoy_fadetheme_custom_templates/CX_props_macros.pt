@@ -94,25 +94,26 @@ bugfix: eventlister, mMeventlister - class: defaulted to "eventPublished" instea
         <div class="calTabs">
           <a class="plain" href="#" tal:condition="python:checkPermission('Modify portal content', here)" 
               tal:attributes="href python:context.absolute_url()+'/edit'" 
-              i18n:translate="label_managetab">manage</a> 
-          <a class="plain" href="#" tal:attributes="href Dict/urlMonth2;
+              i18n:translate="label_managetab">Manage</a> 
+          <a id="calxtab-3months" class="plain" href="#" tal:attributes="href Dict/urlMonth2;
                                                     class multimonthClass;" 
-             i18n:translate="label_multimonth">3 months</a> 
-          <a class="plain" href="#" tal:attributes="href Dict/urlMonth;
+             i18n:translate="label_multimonth">3 Months</a> 
+          <a id="calxtab-month" class="plain" href="#" tal:attributes="href Dict/urlMonth;
                                                     class monthClass;" 
-             i18n:translate="label_month">month</a> 
-          <a class="plain" href="#" tal:attributes="href Dict/urlWeek;
+             i18n:translate="label_month">Month</a> 
+          <a id="calxtab-weekbyday" class="plain" href="#" tal:attributes="href Dict/urlWeek;
                                                     class weekClass;" 
-             i18n:translate="label_week_by_day">week by day</a> 
-          <a class="plain" href="#" tal:attributes="href Dict/urlWeek2;
+             i18n:translate="label_week_by_day">Week by Day</a> 
+          <a id="calxtab-weekbyhour" class="plain" href="#" tal:attributes="href Dict/urlWeek2;
                                                     class week2Class;" 
-             i18n:translate="label_week_by_hour">week by hour</a> 
-          <a class="plain" href="#" tal:attributes="href Dict/urlDay;
+             i18n:translate="label_week_by_hour">Week by Hour</a> 
+          <a id="calxtab-day" class="plain" href="#" tal:attributes="href Dict/urlDay;
                                                     class dayClass;" 
-             i18n:translate="label_day">day</a>
-          <a class="plain" href="#" tal:condition="python:here.getCXAttribute('useCalendarHelp')"
+             i18n:translate="label_day">Day</a>
+          <a id="calxtab-help" class="plain" href="#" tal:condition="python:here.getCXAttribute('useCalendarHelp')"
                                     tal:attributes="href Dict/urlHelp;
-                                                    class helpClass;" i18n:translate="label_calendar_help">calendar help</a>
+                                                    class helpClass;" i18n:translate="label_calendar_help">Calendar Help</a>
+        <div class="visualClear"><!-- --></div>
         </div>
     </th>
   </tr>
@@ -404,7 +405,7 @@ bugfix: eventlister, mMeventlister - class: defaulted to "eventPublished" instea
 
 <!-- Copyright -->
 <!-- Link displaying powered by information, or use for copyright info -->
-<div metal:define-macro="copyright" class="calxcopyright" i18n:domain="calendarx">
+<div metal:define-macro="copyright" class="calxcopyright" i18n:domain="calendarx" tal:condition="nothing">
   <hr/>
   <p i18n:translate="calx_powered_by">Powered by <span i18n:name="calx_org_link"><a href="http://calendarx.org" i18n:translate="calx_a_plone_calendar">CalendarX, a Plone Calendar</a></span>.</p>  
 </div>

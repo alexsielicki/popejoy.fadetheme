@@ -1,0 +1,75 @@
+/* <dtml-with base_properties> (do not remove this :) */
+/* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
+
+/* CalendarX */
+.template-month .jumpday {
+    display: none;
+}
+#calxtab-3months,
+#calxtab-weekbyday,
+#calxtab-weekbyhour
+{
+    display: none;
+}
+div.calTabs a,
+div.calTabs a:visited
+{
+    text-transform: capitalize !important;
+    border-width: 0px !important;
+    background-color: #5F7271 !important;
+    line-height: 27px;
+    display: block;
+    float: left;
+    color: White !important;
+}
+div.calTabs a.selected {
+    background-color: #972C23 !important;
+    border-width: 0px !important;
+}
+
+TABLE.caltabs {
+WIDTH: 100% !important;
+}
+
+DIV.calTabs {
+border-bottom: 7px solid #972C23 !important;
+}
+
+table.calheader td.center {
+    text-transform: uppercase;
+}
+table.calheader td.left,
+table.calheader td.right {
+    text-transform: capitalize;
+}
+
+table.cal {
+    border-collapse: collapse;
+}
+
+table.cal th {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+table.cal td.event span.day {
+    color: #41687E;
+    font-weight: bold;
+    font-size: 12px;
+}
+table.cal td.noevent span.day {
+    font-weight: normal;
+    font-size: 12px;
+}
+table.cal td.outOfMonth * {
+    display: none;
+}
+
+td.choosedate input {
+    background-color:#F0F0F0;
+border:1px solid #AAAAAA;
+color:Black;
+cursor:pointer;
+}
+
+/* </dtml-with> */
