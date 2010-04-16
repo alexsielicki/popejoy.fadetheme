@@ -55,6 +55,9 @@ popejoy/fadetheme/skins/popejoy_fadetheme_custom_images/homepage-portlet-backgro
 popejoy/fadetheme/skins/popejoy_fadetheme_custom_images/list-image.png
 popejoy/fadetheme/skins/popejoy_fadetheme_custom_images/logo.png
 popejoy/fadetheme/skins/popejoy_fadetheme_custom_templates/CONTENT.txt
+popejoy/fadetheme/skins/popejoy_fadetheme_custom_templates/CX_props_macros.pt
+popejoy/fadetheme/skins/popejoy_fadetheme_custom_templates/folder_listing.pt
+popejoy/fadetheme/skins/popejoy_fadetheme_custom_templates/folder_listing.pt.metadata
 popejoy/fadetheme/skins/popejoy_fadetheme_custom_templates/getHomepageUpcomingShows.py
 popejoy/fadetheme/skins/popejoy_fadetheme_custom_templates/homepage_view.pt
 popejoy/fadetheme/skins/popejoy_fadetheme_custom_templates/main_template.pt
@@ -67,5 +70,6 @@ popejoy/fadetheme/skins/popejoy_fadetheme_styles/forms.css.dtml
 popejoy/fadetheme/skins/popejoy_fadetheme_styles/invisibles.css.dtml
 popejoy/fadetheme/skins/popejoy_fadetheme_styles/member.css.dtml
 popejoy/fadetheme/skins/popejoy_fadetheme_styles/navtree.css.dtml
+popejoy/fadetheme/skins/popejoy_fadetheme_styles/ploneCustom.css.dtml
 popejoy/fadetheme/skins/popejoy_fadetheme_styles/portlets.css.dtml
 popejoy/fadetheme/skins/popejoy_fadetheme_styles/public.css.dtml
