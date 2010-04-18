@@ -48,7 +48,8 @@
 
     <dd class="portletItem" 
         tal:define="calendarTypes context/portal_calendar/getCalendarTypes;
-                    calendarTypesSearchString python: ''.join(['&portal_type%%3Alist=%s' % type for type in calendarTypes]);">
+                    calendarTypesSearchString python: ''.join(['&portal_type%%3Alist=%s' % type for type in calendarTypes]);
+		    calX context/getLatestCalendarX|nothing;">
         <table class="ploneCalendar"
                summary="Calendar"
                i18n:domain="plone"
@@ -72,11 +73,16 @@
                                                     is_today day/is_today"
                                     ><td class="event"
                                         tal:condition="day_event"
-                                        tal:attributes="class python:is_today and 'todayevent' or 'event'"
+                                        tal:attributes="class python:is_today and 'todayevent' or 'event';"
+					
                                        ><a href=""
-					   tal:define="date_for_calx python: day['date_string'].replace('-', '/');
-						       href_original_for_search_not_calendarX string:${portal_url}/search?${view/getReviewStateString}start.query:record:list:date=${day/date_string}+23%3A59%3A59&amp;start.range:record=max&amp;end.query:record:list:date=${day/date_string}+00%3A00%3A00&amp;end.range:record=min&amp;${calendarTypesSearchString};"
-                                           tal:attributes="href string:${portal_url}/events/calendar/day?currentDate=${date_for_calx};
+				       tal:define="date_for_calx python: day['date_string'].replace('-', '/');
+						    calXUrl calX/getURL|nothing;
+						    calXPath string:${calXUrl}/day?currentDate=${date_for_calx};
+						    basicPath string:${portal_url}/search?${view/getReviewStateString}start.query:record:list:date=${day/date_string}+23%3A59%3A59&amp;start.range:record=max&amp;end.query:record:list:date=${day/date_string}+00%3A00%3A00&amp;end.range:record=min&amp;${calendarTypesSearchString};
+						    href python: (calXUrl and [calXPath] or [basicPath])[0];
+						    href_original_for_search_not_calendarX string:${portal_url}/search?${view/getReviewStateString}start.query:record:list:date=${day/date_string}+23%3A59%3A59&amp;start.range:record=max&amp;end.query:record:list:date=${day/date_string}+00%3A00%3A00&amp;end.range:record=min&amp;${calendarTypesSearchString};"
+                                           tal:attributes="href href;
                                                            title day/eventstring;"
                                            tal:content="daynumber">
                                            31
@@ -100,7 +106,10 @@
             </tbody>
 
         </table>
-	<div id="full-cal"><a href="#" tal:attributes="href string:${portal_url}/events/calendar;">View Full Calendar</a></div>
+	<div id="full-cal" 
+	    tal:condition="calX">
+	    <a href="#" tal:attributes="href calX/getURL;">View Full Calendar</a>
+	</div>
         <span class="portletBottomLeft"></span>
         <span class="portletBottomRight"></span>
     </dd>
