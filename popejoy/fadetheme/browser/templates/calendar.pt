@@ -100,7 +100,7 @@
             </tbody>
 
         </table>
-
+	<div id="full-cal"><a href="#" tal:attributes="href string:${portal_url}/events/calendar;">View Full Calendar</a></div>
         <span class="portletBottomLeft"></span>
         <span class="portletBottomRight"></span>
     </dd>

@@ -112,9 +112,7 @@ bugfix: eventlister, mMeventlister - class: defaulted to "eventPublished" instea
              i18n:translate="label_day">Day</a>
           <a id="calxtab-help" class="plain" href="#" tal:condition="python:here.getCXAttribute('useCalendarHelp')"
                                     tal:attributes="href Dict/urlHelp;
-                                                    class helpClass;" i18n:translate="label_calendar_help">Calendar Help</a>
-        <div class="visualClear"><!-- --></div>
-        </div>
+                                                    class helpClass;" i18n:translate="label_calendar_help">Calendar Help</a><div class="visualClear"><!-- --></div></div>
     </th>
   </tr>
 </span>

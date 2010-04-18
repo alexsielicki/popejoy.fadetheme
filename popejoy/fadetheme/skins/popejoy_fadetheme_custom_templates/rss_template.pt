@@ -64,7 +64,11 @@
     <tal:start tal:content="python: obj_item.start().strftime('on %a %b %d %Y at %I:%M %p')" tal:condition="obj_item/start|nothing">start</tal:start>
   </title>        
   <link tal:content="obj_item/Identifier">Identifier</link>        
-  <description tal:content="obj_item/Description">Description</description>        
+  <description>
+    <tal:eventtype tal:condition="python: item_type == 'Performance'">An Official Popejoy Presents Performance.  </tal:eventtype>
+    <tal:eventtype tal:condition="python: item_type == 'Event'">An Event At Popejoy Hall.  </tal:eventtype>
+    <tal:description tal:content="obj_item/Description">[description]</tal:description>
+  </description>        
   <dc:publisher tal:content="obj_item/Publisher">Publisher</dc:publisher>        
   <dc:creator tal:content="obj_item/Creator">Creator</dc:creator>        
   <dc:rights tal:content="obj_item/Rights">Rights</dc:rights>        

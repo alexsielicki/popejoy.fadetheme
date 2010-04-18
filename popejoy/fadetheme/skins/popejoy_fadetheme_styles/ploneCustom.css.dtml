@@ -21,6 +21,8 @@ div.calTabs a:visited
     display: block;
     float: left;
     color: White !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
 }
 div.calTabs a.selected {
     background-color: #972C23 !important;
@@ -32,6 +34,9 @@ WIDTH: 100% !important;
 }
 
 DIV.calTabs {
+
+padding-bottom: 0px !important;
+border-top: 1px solid white; /* Needed to remove white space in IE7 */
 border-bottom: 7px solid #972C23 !important;
 }
 
@@ -70,6 +75,13 @@ td.choosedate input {
 border:1px solid #AAAAAA;
 color:Black;
 cursor:pointer;
+}
+
+/* Cal Portlet */
+#full-cal {
+    text-align: right;
+    text-transform: uppercase;
+    margin-top: 10px;
 }
 
 /* </dtml-with> */
