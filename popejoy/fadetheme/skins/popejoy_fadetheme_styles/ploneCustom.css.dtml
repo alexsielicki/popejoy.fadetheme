@@ -77,6 +77,13 @@ color:Black;
 cursor:pointer;
 }
 
+div.eventlisting {
+    margin-bottom: 13px !important;
+}
+.calendarxEvent .calx-eventtitle {
+    font-weight: normal !important;
+}
+
 /* Cal Portlet */
 #full-cal {
     text-align: right;

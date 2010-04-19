@@ -369,7 +369,10 @@ bugfix: eventlister, mMeventlister - class: defaulted to "eventPublished" instea
                             </metal:block>
                             <img class="eventicon" tal:condition="python: not useSubjectIcons and not useEventTypeIcons"
                                  tal:replace="structure python:here.getEventIcons(event,'no subject')" />
-                            <span tal:replace="structure eventstring">startof event</span>
+                            <span tal:replace="structure eventstring"
+                                  tal:condition="nothing">startof event</span>
+                            <strong class="calx-eventtitle" tal:content="eventtitle"></strong>
+                            <div class="calx-stime" tal:content="stime"><span></span></div>
                           </a>
                         </div>
 </span>
@@ -394,7 +397,10 @@ bugfix: eventlister, mMeventlister - class: defaulted to "eventPublished" instea
                             </metal:block>
                             <img class="eventicon" tal:condition="python: not useSubjectIcons and not useEventTypeIcons"
                                  tal:replace="structure python:here.getEventIcons(event,'no subject')" />
-                            <span tal:replace="structure eventstring">startof event</span>
+                            <span tal:replace="structure eventstring" 
+                                  tal:condition="nothing">startof event</span>
+                            <div class="calx-eventtitle"><strong tal:content="eventtitle"></strong></div>
+                            <div class="calx-stime" tal:content="stime"><span></span></div>
                           </a>
                         </div>
 </span>
