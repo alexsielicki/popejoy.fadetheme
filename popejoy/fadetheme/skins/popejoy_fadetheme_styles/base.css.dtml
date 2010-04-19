@@ -25,7 +25,7 @@ body {
     padding: 0;
 }
 #visual-portal-wrapper-one {
-	background: White url(&dtml-portal_url;/background-fade.png) repeat-x center bottom;
+	background: #C7C7C7 url(&dtml-portal_url;/background-fade.png) repeat-x center bottom;
 }
 #visual-portal-wrapper-two {
 	background: transparent url(&dtml-portal_url;/background-top-filler.png) repeat-y center top;
