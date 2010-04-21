@@ -59,8 +59,11 @@ popejoy/fadetheme/skins/popejoy_fadetheme_custom_templates/CX_props_macros.pt
 popejoy/fadetheme/skins/popejoy_fadetheme_custom_templates/folder_listing.pt
 popejoy/fadetheme/skins/popejoy_fadetheme_custom_templates/folder_listing.pt.metadata
 popejoy/fadetheme/skins/popejoy_fadetheme_custom_templates/getHomepageUpcomingShows.py
+popejoy/fadetheme/skins/popejoy_fadetheme_custom_templates/getLatestCalendarX.py
 popejoy/fadetheme/skins/popejoy_fadetheme_custom_templates/homepage_view.pt
 popejoy/fadetheme/skins/popejoy_fadetheme_custom_templates/main_template.pt
+popejoy/fadetheme/skins/popejoy_fadetheme_custom_templates/rss_template.pt
+popejoy/fadetheme/skins/popejoy_fadetheme_custom_templates/rss_template.pt.metadata
 popejoy/fadetheme/skins/popejoy_fadetheme_styles/CONTENT.txt
 popejoy/fadetheme/skins/popejoy_fadetheme_styles/authoring.css.dtml
 popejoy/fadetheme/skins/popejoy_fadetheme_styles/base.css.dtml
