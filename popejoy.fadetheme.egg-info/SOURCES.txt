@@ -29,6 +29,7 @@ popejoy/fadetheme/browser/stylesheets/main.css
 popejoy/fadetheme/browser/templates/__init__.py
 popejoy/fadetheme/browser/templates/calendar.pt
 popejoy/fadetheme/browser/templates/colophon.pt
+popejoy/fadetheme/browser/templates/document_actions.pt
 popejoy/fadetheme/browser/templates/favicon.pt
 popejoy/fadetheme/browser/templates/footer.pt
 popejoy/fadetheme/browser/templates/logo.pt
@@ -46,6 +47,7 @@ popejoy/fadetheme/skins/popejoy_fadetheme_custom_images/CONTENT.txt
 popejoy/fadetheme/skins/popejoy_fadetheme_custom_images/apple-touch-icon.png
 popejoy/fadetheme/skins/popejoy_fadetheme_custom_images/background-fade.png
 popejoy/fadetheme/skins/popejoy_fadetheme_custom_images/background-frame-with-p.png
+popejoy/fadetheme/skins/popejoy_fadetheme_custom_images/background-frame-with-p.psd
 popejoy/fadetheme/skins/popejoy_fadetheme_custom_images/background-top-filler.png
 popejoy/fadetheme/skins/popejoy_fadetheme_custom_images/calendar-left-arrow.png
 popejoy/fadetheme/skins/popejoy_fadetheme_custom_images/calendar-right-arrow.png

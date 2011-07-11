@@ -91,4 +91,8 @@ div.eventlisting {
     margin-top: 10px;
 }
 
+.runTimeLabel {
+    font-weight: bold;
+}
+
 /* </dtml-with> */
