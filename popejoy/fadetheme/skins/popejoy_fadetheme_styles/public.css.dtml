@@ -214,9 +214,12 @@ body.kssActive h1.formlibInlineEditable:hover {
 }
 #portal-top {
     /* Top section */
-    margin: 0;
+    margin: 50px 0 0 0;
     padding: 0;
     background-color: &dtml-backgroundColor;;
+    border-radius: 8px 8px 0 0;
+    -moz-border-radius: 8px 8px 0 0;
+    -webkit-border-radius: 8px 8px 0 0;
 }
 #portal-header {
 	/* background: transparent url(&dtml-portal_url;/header-swirl.png) no-repeat 400px 200px; */
@@ -998,6 +1001,9 @@ textarea.proportional {
     line-height: 1.2em;
     padding: 0.5em 0em 1em 0em;
     display: none;
+    border-radius: 0 0 8px 8px;
+    -moz-border-radius: 0 0 8px 8px;
+    -webkit-border-radius: 0 0 8px 8px;
 }
 .section-front-page #portal-footer {
 	display: block;
@@ -1041,10 +1047,10 @@ textarea.proportional {
 }
 #portal-colophon {
     float: none;
-    margin: 0 0 1em 0;
+    margin: 0 0 0 0;
     padding: 0 0 1em 0;
     color: #666;
-    height: 217px;
+    height: 340px;
     position: relative;
 }
 #portal-colophon a {

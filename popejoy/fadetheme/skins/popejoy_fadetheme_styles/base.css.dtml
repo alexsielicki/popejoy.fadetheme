@@ -25,13 +25,13 @@ body {
     padding: 0;
 }
 #visual-portal-wrapper-one {
-	background: #C7C7C7 url(&dtml-portal_url;/background-fade.png) repeat-x center bottom;
+    
 }
 #visual-portal-wrapper-two {
-	background: transparent url(&dtml-portal_url;/background-top-filler.png) repeat-y center top;
+    
 }
 #visual-portal-wrapper-three {
-	background: transparent url(&dtml-portal_url;/background-frame-with-p.png) no-repeat center bottom;
+    background: transparent url(&dtml-portal_url;/main-background.jpg) no-repeat center bottom;
 }
 table {
     font-size: 100%;
