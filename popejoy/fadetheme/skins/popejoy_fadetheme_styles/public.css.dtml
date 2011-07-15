@@ -115,7 +115,7 @@ body.kssActive h1.formlibInlineEditable:hover {
 }
 
 .documentContent ul {
-    list-style-image: url(&dtml-portal_url;/list-image.png);
+    list-style-image: url(&dtml-portal_url;/bullet.gif);
     list-style-type: square;
     margin: 0.5em 0 0 21px;
     line-height: 15px;
@@ -173,7 +173,7 @@ body.kssActive h1.formlibInlineEditable:hover {
 #portal-logo img {
     border: 0;
     padding: 0;
-    margin: 12px 0px 0px 24px;
+    margin: 20px 0px 15px 15px;
 }
 
 /* Newsletter signup form */
@@ -181,7 +181,7 @@ body.kssActive h1.formlibInlineEditable:hover {
 	position: absolute;
 	top: 55px;
 	right: 10px;
-	width: 250px;
+	width: 320px;
 	overflow: hidden;
 }
 #newsletter-signup h1 {
@@ -999,48 +999,79 @@ textarea.proportional {
     background-color: &dtml-backgroundColor;;
     float: none;
     line-height: 1.2em;
-    padding: 0.5em 0em 1em 0em;
+    padding: 20px 6px 27px 6px;
     display: none;
     border-radius: 0 0 8px 8px;
     -moz-border-radius: 0 0 8px 8px;
     -webkit-border-radius: 0 0 8px 8px;
+    color: #020307;
+    font-size: 13px;
 }
 .section-front-page #portal-footer {
 	display: block;
 }
+#portal-footer #homepage-bottom-wrapper {
+    border: 1px solid #c5d4cf; /* blue/green */
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    background: transparent url(&dtml-portal_url;/3-boxes-bg.png) repeat-x center top;
+}
+#portal-footer #homepage-bottom-wrapper-inner {
+    border: 1px solid white;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
 #portal-footer #homepage-bottom {
 	width: 100%;
-	border-collapse: collapse;
+	/* border-collapse: collapse; */
+	border-spacing: 0;
 }
 #portal-footer #homepage-bottom td {
 	vertical-align: top;
 	padding: 0 20px;
 	margin: 0;
+	width: 33%;
+	border-right: 1px solid #C5D4CF;
+	border-left: 1px solid white;
+}
+#portal-footer #homepage-bottom td:first-child {
+    border-left-width: 0;
+}
+#portal-footer #homepage-bottom td:last-child {
+    border-right-width: 0;
 }
 #portal-footer p {
     margin: 0.25em 0;
 }
 #portal-footer h2 {
 	font-size: 22px;
-	color: #5f7271;
-	background-color: #A8C3C3;
+	color: #1d374e;
 	line-height: 35px;
 	padding: 0 10px;
-	-webkit-border-radius: 9px;  
-        -moz-border-radius: 9px; 
+	text-shadow: white 1px 1px;
+	text-transform: uppercase;
+}
+#portal-footer h2 a {
+    color: #1d374e !important;
+}
+#portal-footer h2 a:hover {
+    text-decoration: none;
 }
 #portal-footer ul {
-	list-style-image: url(&dtml-portal_url;/list-image.png);
+	list-style-image: url(&dtml-portal_url;/bullet.gif);
     list-style-type: square;
     margin: 0.5em 0 0 34px;
     line-height: 15px;
 }
 #portal-footer a {
-    color: &dtml-linkColor;;
+    color: #020307;
     border: none;
+    text-decoration: none;
 }
 #portal-footer a:visited {
-    color: &dtml-linkColor;;
+    color: #020307;
 }
 #portal-footer a:hover {
     text-decoration: underline;

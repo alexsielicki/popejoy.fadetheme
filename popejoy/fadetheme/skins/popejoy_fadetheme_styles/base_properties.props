@@ -2,9 +2,9 @@ title:string=Popejoy Fade Theme's color, font, logo and border defaults
 
 plone_skin:string=Popejoy Fade Theme
 
-logoName:string=logo.png
+logoName:string=logo.gif
 
-fontFamily:string=Tahoma, Geneva, Verdana, Lucida, Helvetica, Arial, sans-serif
+fontFamily:string=Arial, Helvetica, Lucida, sans-serif
 fontBaseSize:string=12px
 fontColor:string=#47494c
 fontSmallSize:string=10px
@@ -23,7 +23,7 @@ globalBorderColor:string=#a8c3c3
 globalBackgroundColor:string=#a8c3c3
 globalFontColor:string=#436976
 
-headingFontFamily:string=Tahoma, Geneva, Verdana, Lucida, Helvetica, Arial, sans-serif
+headingFontFamily:string=Arial, Helvetica, Lucida, sans-serif
 
 contentViewBorderColor:string=#74ae0b
 contentViewBackgroundColor:string=#cde2a7
