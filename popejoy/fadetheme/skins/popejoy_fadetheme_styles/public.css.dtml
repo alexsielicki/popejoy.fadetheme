@@ -179,30 +179,42 @@ body.kssActive h1.formlibInlineEditable:hover {
 /* Newsletter signup form */
 #newsletter-signup {
 	position: absolute;
-	top: 55px;
+	top: 82px;
 	right: 10px;
 	width: 320px;
 	overflow: hidden;
+	background: transparent url(&dtml-portal_url;/dancer.gif) no-repeat right top;
 }
 #newsletter-signup h1 {
-	color: &dtml-liteBlueColor;;
+	color: #375168;
 	margin-bottom: 0px;
 	margin-top: 0px;
+	text-transform: uppercase;
+	letter-spacing:-0.04em;
 }
 #newsletter-signup h3 {
-	color: #a6c0bf;
+	color: #020307;
 	margin-top: 0px;
 	margin-bottom: 8px;
 }
 #newsletter-signup #ea {
-	width: 150px;
-	border: 1px solid #aaa;
+	width: 250px;
+	border: 1px solid #ADBCA7;
+	background-color: #c5d4cf;
+	padding: 6px;
+}
+#newsletter-signup input.inputLabelActive {
+    color: black;
 }
 #newsletter-signup input.submit {
-	background-color: #f0f0f0;
-	color: Black;
-	border: 1px solid #aaa;
+	background: #e2a407 url(&dtml-portal_url;/button-bg.gif) repeat-x center top;
+	color: white;
+	border: 1px solid #d09502;
 	cursor: pointer;
+	text-transform: uppercase;
+	text-shadow:-1px -1px #D09502;
+	padding: 5px;
+	font-weight: bold;
 }
 
 /* The skin switcher at the top, only shows up if you have multiple skins available */
@@ -223,42 +235,55 @@ body.kssActive h1.formlibInlineEditable:hover {
 }
 #portal-header {
 	/* background: transparent url(&dtml-portal_url;/header-swirl.png) no-repeat 400px 200px; */
+	position: relative;
+	height: 255px;
 }
 
 /* Site-wide action menu - font size, contact, index, sitemap etc */
 #portal-siteactions {
-    background-color: transparent;
+    background: transparent url(&dtml-portal_url;/donate-bg.gif) no-repeat right top;
     white-space: nowrap;
     list-style-image: none;
     list-style-type: none;
-    margin: 1px 0 0 0;
+    margin: 0 0 0 0;
     height: auto;
     line-height: normal;
     float: right;
-    padding: 3px 2em 3px 0;
+    padding: 0;
 }
 #portal-siteactions li {
     display: inline;
+    margin: 0;
+    padding: 0;
 }
 #portal-siteactions li a {
     background-color: transparent;
-    border: 1px solid &dtml-backgroundColor;;
-    color: &dtml-discreetColor;;
+    color: #020307;
     height: auto;
     padding: 0.2em;
     margin-right: 0.2em;
     text-decoration: none;
     text-transform: &dtml-textTransform;;
+    line-height: 53px;
 }
 #portal-siteactions li.selected a {
     background-color: &dtml-globalBackgroundColor;;
     color: &dtml-globalFontColor;;
     border: &dtml-borderWidth; &dtml-borderStyle; &dtml-globalBorderColor;;
 }
+#portal-siteactions #siteaction-support a {
+    padding-right: 0;
+    margin-right: 0;
+}
+#portal-siteactions #siteaction-donate a {
+    font-weight: bold;
+    font-size: 13px;
+    background: transparent url(&dtml-portal_url;/donate.gif) no-repeat center center;
+    padding: 13px 18px;
+    margin-right: 10px;
+}
 #portal-siteactions li a:hover {
-    background-color: &dtml-globalBackgroundColor;;
-    color: &dtml-globalFontColor;;
-    border: &dtml-borderWidth; &dtml-borderStyle; &dtml-globalBorderColor;;
+    
 }
 
 /* Searchbox style and positioning */
@@ -419,70 +444,68 @@ form.searchPage input.searchButton {
 
 /* The global section tabs. */
 #portal-globalnav {
-    background-color: &dtml-deepRedColor;;
+    background: transparent url(&dtml-portal_url;/navigation.png) no-repeat left top;
     padding: 0em 0em 0em 0em;
     white-space: nowrap;
     list-style: none;
     margin: 0;
-    height: 55px;
     line-height: normal;
     overflow: hidden;
+    width: 939px;
+    height: 77px;
+    margin-left: -13px;
+    position: absolute;
+    top: 175px;
+    left: 0px;
 }
 .section-front-page #portal-globalnav {
-	height: 48px;
+    
 }
 #portal-globalnav li {
     display: block;
     float: left;
     margin: 0;
-    width: 152px;
+    
 }
 #portal-globalnav li.last {
-	width: 153px;
+    
 }
 #portal-globalnav li a {
     /* The normal, unselected tabs. They are all links */
-    background-color: &dtml-darkBlueBackColor;;
     color: White;
     height: auto;
     margin-right: 0;
-    line-height: 48px;
+    line-height: 56px;
     text-decoration: none;
     text-transform: &dtml-textTransform;;
     display: block;
     text-align: center;
     font-size: 17px;
-}
-#portal-globalnav li.iteration1 a,
-#portal-globalnav li.iteration6 a {
-	background-color: &dtml-darkestBlueBackColor;;
+    font-weight: bold;
+    text-shadow: -1px -1px #7f0b09;
 }
 #portal-globalnav li.iteration2 a,
-#portal-globalnav li.iteration5 a {
-	background-color: &dtml-darkBlueBackColor;;
+#portal-globalnav li.iteration3 a,
+#portal-globalnav li.iteration4 a,
+#portal-globalnav li.iteration5 a{
+    width: 152px;
 }
-#portal-globalnav li.iteration3 a {
-	background-color: &dtml-mediumBlueBackColor;;
-}
-#portal-globalnav li.iteration4 a {
-	background-color: &dtml-liteBlueBackColor;;
+#portal-globalnav li.iteration6 a {
+    width: 160px;
 }
 #portal-globalnav li.selected a {
     /* The selected tab. There's only one of this */
-    background-color: &dtml-deepRedColor;;
     border-top: 0px solid green;
     border-width: 0px;
-    
     height: auto;
     margin-right: 0;
-    line-height: 48px;
     display: block;
 }
 #portal-globalnav li.iteration1 a {
-	background-color: &dtml-darkestBlueBackColor;;
+	width: 165px;
 }
 .section-front-page #portal-globalnav li.selected a {
-	background-color: &dtml-deepRedColor;;
+	
 }
 
 
