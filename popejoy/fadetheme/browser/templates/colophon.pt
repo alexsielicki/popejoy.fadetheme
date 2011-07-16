@@ -24,7 +24,7 @@
 	
 	
 </div>
-
+      <tal:disable tal:condition="nothing">
       <div id="copyright">
       Copyright
       <span
@@ -34,6 +34,10 @@
       by 
       <a href="login_form" style="color: #666666; text-decoration: none; cursor: default;">Popejoy Presents</a>
       </div>
+      </tal:disable>
+
+      
+      
       <div id="fostermilo">
       Site by <a href="http://fostermilo.com/">FosterMilo</a>
       </div>

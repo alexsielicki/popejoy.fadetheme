@@ -226,7 +226,7 @@ body.kssActive h1.formlibInlineEditable:hover {
 }
 #portal-top {
     /* Top section */
-    margin: 50px 0 0 0;
+    margin: 20px 0 0 0;
     padding: 0;
     background-color: &dtml-backgroundColor;;
     border-radius: 8px 8px 0 0;
@@ -1103,16 +1103,17 @@ textarea.proportional {
     float: none;
     margin: 0 0 0 0;
     padding: 0 0 1em 0;
-    color: #666;
+    color: #c5d4cf;
     height: 340px;
     position: relative;
 }
 #portal-colophon a {
-	color: white;
+	color: #83979e;
 	text-decoration: none;
 }
 #portal-colophon a:hover {
 	text-decoration: underline;
+	color: #c5d4cf;
 }
 #portal-colophon p,
 #footer-table p
@@ -1120,8 +1121,13 @@ textarea.proportional {
 	margin: 0;
 	line-height: normal;
 }
+#portal-colophon .visualHighlight {
+    text-transform: uppercase;
+    color: #f9b401;
+    background: transparent;
+    font-weight: bold;
+}
 #portal-colophon .colophonWrapper {
-	position: absolute;
 	padding: 30px 0;
 }
 #portal-colophon h1,
@@ -1133,14 +1139,34 @@ textarea.proportional {
 #footer-table h3,
 #footer-table h4
 {
-	color: &dtml-deepRedColor;;
+	color: #c5d4cf;
 	margin: 0;
+	text-transform: uppercase;
+	border-bottom: 1px solid #c5d4cf;
+	text-align: left;
 }
 
 table#footer-table {
 	border-collapse: collapse;
+	margin: 0 auto;
 }
-table#footer-table  td{
+table#footer-table th,
+table#footer-table td
+{
+    padding: 0 80px 0 0;
+}
+table#footer-table th.popejoyHallLastColumn,
+table#footer-table td.popejoyHallLastColumn
+{
+    padding-right: 0;
+}
+table#footer-table td.popejoyHallLastColumn {
+    padding-top: 13px;
+}
+table#footer-table td.popejoyHallFirstColumn {
+    padding-right: 40px;
+}
+table#footer-table td{
 	margin: 0;
 	vertical-align: top;
 }
@@ -1162,14 +1188,20 @@ td#footer-right {
     margin: 0;
 }
 #portal-colophon ul li {
-    display: inline !important;
-    font-size: &dtml-fontSmallSize;;
-    padding: 0 0.75em;
+    /* display: inline !important; */
+    font-size: 11px;
+    padding: 0 0 0 0;
+    border-bottom: 1px solid #83979e;
+    margin: 1.2em 0 0 0;
 }
 #portal-colophon ul li a {
     text-decoration: none;
-    border-bottom: 1px #ccc solid;
-    color: #666;
+    color: #83979e;
+    display: block;
+}
+#portal-colophon ul li a:hover {
+    text-decoration: none;
+    color: #c5d4cf;
 }
 #colophon-content {
 	margin-bottom: 14px;
@@ -1177,8 +1209,7 @@ td#footer-right {
 #portal-colophon #copyright,
 #portal-colophon #fostermilo 
 {
-	width: 210px;
-	text-align: right;
+    text-align: right;
 }
 
 .feedButton {
