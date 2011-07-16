@@ -225,7 +225,7 @@ div.error {
     font-weight: bold;
 }
 input.inputLabelActive {
-  color: &dtml-discreetColor;;
+  color: #555555;
 }
 
 textarea#form\.description {
