@@ -87,8 +87,19 @@ div.eventlisting {
 /* Cal Portlet */
 #full-cal {
     text-align: right;
-    text-transform: uppercase;
-    margin-top: 10px;
+    text-transform: lowercase;
+    margin: 0px;
+    background-color: black;
+}
+#full-cal a {
+    display: inline-block;
+    background-color: #FAB300;
+    padding: 0px 10px 1px 10px;
+    color: #020307;
+    font-size: 11px;
+    font-weight: bold;
+    border-radius: 0px 0px 8px 8px;
+    -moz-border-radius: 0px 0px 8px 8px;
 }
 
 .runTimeLabel {

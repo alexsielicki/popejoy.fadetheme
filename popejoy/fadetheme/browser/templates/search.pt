@@ -30,7 +30,8 @@
         <a href="#"
          class="tile"
          tal:attributes="href view/search_form"
-         i18n:translate="label_advanced_search">
+         i18n:translate="label_advanced_search"
+         id="advanced-search">
         Advanced search
         </a>
   

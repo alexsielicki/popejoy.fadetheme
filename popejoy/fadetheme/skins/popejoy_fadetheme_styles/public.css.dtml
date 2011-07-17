@@ -18,7 +18,8 @@ body.smallText { font-size: 60%; }
 }
 #portal-column-two .visualPadding {
     padding: 20px 12px 12px 12px;
-    background-color: &dtml-mediumBlueBackColor;;
+    background-color: black;
+    border-right: 1px solid #a10000;
 }
 .section-front-page #portal-column-two .visualPadding {
     position: relative;
