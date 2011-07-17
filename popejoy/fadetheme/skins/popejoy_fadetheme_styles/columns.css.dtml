@@ -12,6 +12,14 @@
     border-collapse: collapse;
     border-spacing: 0;
     background-color: &dtml-backgroundColor;;
+    border-radius: 0px 0px 8px 8px;
+    -moz-border-radius: 0px 0px 8px 8px;
+    -webkit-border-radius: 0px 0px 8px 8px;
+}
+.section-front-page #portal-columns {
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
 }
 #portal-column-one {
     vertical-align: top;

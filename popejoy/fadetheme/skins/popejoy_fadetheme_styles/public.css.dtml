@@ -17,13 +17,16 @@ body.smallText { font-size: 60%; }
     padding: 2em 0em 1em 2em;
 }
 #portal-column-two .visualPadding {
-    padding: 20px 12px 12px 12px;
+    padding: 10px;
     background-color: black;
     border-right: 1px solid #a10000;
+    border-radius: 0px 0px 0px 8px;
+    -moz-border-radius: 0px 0px 0px 8px;
+    -webkit-border-radius: 0px 0px 0px 8px;
 }
 .section-front-page #portal-column-two .visualPadding {
     position: relative;
-    height: 185px;
+    /* height: 185px; */
 }
 
 /* Content area */
@@ -192,7 +195,7 @@ body.kssActive h1.formlibInlineEditable:hover {
 	margin-bottom: 0px;
 	margin-top: 0px;
 	text-transform: uppercase;
-	letter-spacing:-0.04em;
+	letter-spacing: -1px;
 }
 #newsletter-signup h3 {
 	color: #020307;
