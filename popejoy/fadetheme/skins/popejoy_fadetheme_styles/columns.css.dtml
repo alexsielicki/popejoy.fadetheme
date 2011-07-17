@@ -30,17 +30,20 @@
 #portal-column-content {
     vertical-align: top;
     border-collapse: collapse;
-    padding: 1em 1em 0 1em;
+    padding: 1em 6px 0 6px;
     margin: 0em 0em 2em 0em;
 }
 .section-front-page #portal-column-content {
-	padding: 0;
+	padding: 0 0 0 6px;
 }
 #portal-column-two {
     vertical-align: top;
     width: <dtml-var columnTwoWidth missing="16em">;
     border-collapse: collapse;
     padding: 0;    
+}
+.section-front-page #portal-column-two {
+    padding-right: 6px;
 }
 
 /* fullscreen */
