@@ -94,34 +94,87 @@ body.kssActive h1.formlibInlineEditable:hover {
 #homepage-this-season-wrapper {
 	position: absolute;
 	top: 325px;
-	left: 270px;
-	width: 623px;
+	left: 323px;
+	width: 578px;
 	height: 280px;
-	padding: 10px;
+	padding: 0px;
 	overflow: hidden;
-	background-color: &dtml-mediumBlueBackColor;;
-
+	background-color: #020307;
+	border-radius: 8px 0px 0px 0px;
+	-moz-border-radius: 8px 0px 0px 0px;
+	-webkit-border-radius: 8px 0px 0px 0px;
 }
 #homepage-this-season {
-	background: &dtml-portletBackgroundColor; url(&dtml-portal_url;/homepage-portlet-background.png) repeat-x top left;
 	height: 100%;
-	padding: 0px 210px 0px 10px;
+	padding: 0px 10px 0px 10px;
+	color: white;
 }
 #homepage-this-season h2 {
 	margin: 0;
-	padding: 5px 0 2px 0;
+	padding: 20px 0 2px 0;
+	color: #c5d4df;
+	text-transform: uppercase;
+}
+#homepage-this-season h3,
+#homepage-this-season h3 a {
+	color: #c5d4df !important;
+	text-decoration: none;
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+#homepage-this-season h3 a:hover {
+    text-decoration: underline;
+}
+#homepage-this-season .performanceDate {
+    color: #fab301;
+    font-style: italic;
 }
 #homepage-this-season #season-links {
 	padding: 0px 0 7px 0;
+	list-style-image: none;
+	list-style-type: none;
+	float: right;
+	margin-top: 2px;
+}
+#homepage-this-season #season-links li {
+    display: inline;
+}
+#homepage-this-season #season-links a {
+    color: #919397;
+    font-weight: bold;
+    background: #010101 url(&dtml-portal_url;/top-btns.gif) repeat-x center center;
+    display: inline-block;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 13px;
+    text-decoration: none;
+}
+#homepage-this-season #season-links a:hover {
+    text-decoration: underline;
 }
 #performance-listing-homepage .performance {
 	padding: 5px 0px;
 }
 #performance-listing-homepage .performanceText {
-	margin: 0 0 0 210px;
+	margin: 0 0 0 301px;
+}
+#performance-listing-homepage .performanceTickets a {
+    background: transparent url(&dtml-portal_url;/tickets-btn.gif) no-repeat center center;
+    color: #020307;
+    font-size: 11px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    width: 118px;
+    line-height: 36px;
+    text-align: center;
+    margin-left: -3px;
 }
 .homepagePerformanceImage {
 	float: left;
+	width: 288px;
+	height: 88px;
+	border: 1px solid #707070;
 }
 
 .documentContent ul {
