@@ -511,7 +511,7 @@ form.searchPage input.searchButton {
 
 /* The global section tabs. */
 #portal-globalnav {
-    background: transparent url(&dtml-portal_url;/navigation.png) no-repeat left top;
+    background: transparent url(&dtml-portal_url;/subnav.gif) no-repeat left top;
     padding: 0em 0em 0em 0em;
     white-space: nowrap;
     list-style: none;
@@ -519,14 +519,29 @@ form.searchPage input.searchButton {
     line-height: normal;
     overflow: hidden;
     width: 939px;
-    height: 100px;
+    height: 103px;
     margin-left: -13px;
     position: absolute;
     top: 175px;
     left: 0px;
 }
-.section-front-page #portal-globalnav {
-    
+.section-front-page #portal-globalnav,
+.section-now-playing #portal-globalnav,
+.template-season_view #portal-globalnav,
+.template-show_view #portal-globalnav,
+.template-performance_view #portal-globalnav,
+.template-search #portal-globalnav
+{
+    background-image: url(&dtml-portal_url;/navigation.png);
+}
+.section-front-page #portal-header,
+.section-now-playing #portal-header,
+.template-season_view #portal-header,
+.template-show_view #portal-header,
+.template-performance_view #portal-header,
+.template-search #portal-header
+{
+    height: 253px;
 }
 #portal-globalnav li {
     display: block;
@@ -600,7 +615,7 @@ form.searchPage input.searchButton {
 }
 #portal-globalnav #subtabs a {
     color: #3f3f3f;
-    line-height: 30px;
+    line-height: 33px;
     text-shadow: none;
     font-size: 11px;
     font-weight: normal;
