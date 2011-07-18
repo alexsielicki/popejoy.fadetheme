@@ -97,7 +97,7 @@ body.kssActive h1.formlibInlineEditable:hover {
 	top: 320px;
 	left: 323px;
 	width: 578px;
-	height: 280px;
+	height: 267px;
 	padding: 0px;
 	overflow: hidden;
 	background-color: #020307;
@@ -530,7 +530,8 @@ form.searchPage input.searchButton {
 .template-season_view #portal-globalnav,
 .template-show_view #portal-globalnav,
 .template-performance_view #portal-globalnav,
-.template-search #portal-globalnav
+.template-search #portal-globalnav,
+.section-events #portal-globalnav
 {
     background-image: url(&dtml-portal_url;/navigation.png);
 }
@@ -539,7 +540,8 @@ form.searchPage input.searchButton {
 .template-season_view #portal-header,
 .template-show_view #portal-header,
 .template-performance_view #portal-header,
-.template-search #portal-header
+.template-search #portal-header,
+.section-events #portal-header
 {
     height: 253px;
 }

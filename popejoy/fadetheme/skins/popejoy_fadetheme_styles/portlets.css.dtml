@@ -280,7 +280,9 @@
     background-color: transparent;
     font-weight: bold;
 }
-.ploneCalendar a {
+.ploneCalendar a,
+.ploneCalendar a:visited
+{
     color: white;
     width: 100%;
     display: block;
