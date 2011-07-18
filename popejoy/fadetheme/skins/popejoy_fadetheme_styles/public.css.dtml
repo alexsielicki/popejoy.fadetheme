@@ -303,6 +303,7 @@ body.kssActive h1.formlibInlineEditable:hover {
 	/* background: transparent url(&dtml-portal_url;/header-swirl.png) no-repeat 400px 200px; */
 	position: relative;
 	height: 255px;
+	height: 290px; /* temp */
 }
 
 /* Site-wide action menu - font size, contact, index, sitemap etc */
@@ -518,7 +519,7 @@ form.searchPage input.searchButton {
     line-height: normal;
     overflow: hidden;
     width: 939px;
-    height: 77px;
+    height: 100px;
     margin-left: -13px;
     position: absolute;
     top: 175px;
@@ -579,6 +580,39 @@ form.searchPage input.searchButton {
 	/* background-color: &dtml-deepRedColor;; */
     text-decoration: underline;
 }
+
+/* Subtabs */
+#portal-globalnav #subtabs {
+    position: absolute;
+    left: 0px;
+    top: 61px;
+    list-style-type: none;
+    list-style-image: none;
+    font-family: Tahoma, Verdana, sans-serif;
+    width: 879px;
+    padding: 0 30px;
+    text-align: center;
+}
+#portal-globalnav #subtabs li {
+    display: inline;
+    float: none;
+    line-height: normal;
+}
+#portal-globalnav #subtabs a {
+    color: #3f3f3f;
+    line-height: 30px;
+    text-shadow: none;
+    font-size: 11px;
+    font-weight: normal;
+    display: inline;
+    padding: 0px 9px;
+    border-right: 1px solid #6c6c6c;
+}
+#portal-globalnav #subtabs li:last-child a {
+    border-right-width: 0;
+}
+
+
 #portal-personaltools {
     /* Bar with personalized menu (user preferences, favorites etc) */
     background-color: &dtml-globalBackgroundColor;;
@@ -586,9 +620,12 @@ form.searchPage input.searchButton {
     color: &dtml-fontColor;;
     padding: 0em 3em 0em 3em;
     margin: 0;
-    text-align: right;
+    text-align: center;
     text-transform: &dtml-textTransform;;
     list-style: none;
+    position: absolute;
+    top: 0px;
+    left: 20px;
 }
 #portal-personaltools .portalUser {
     background: transparent url(&dtml-portal_url;/user.gif) center left no-repeat;

@@ -68,7 +68,7 @@
 <browser:viewlet
     name="plone.global_sections"
     manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
-    class="plone.app.layout.viewlets.common.GlobalSectionsViewlet"
+    class=".templates.common.GlobalSectionsViewlet"
     template="templates/sections.pt"
     layer=".interfaces.IThemeSpecific"
     permission="zope2.View"
