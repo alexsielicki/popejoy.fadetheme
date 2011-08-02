@@ -1037,6 +1037,15 @@ table.vertical td {
     overflow: auto;
     border: 1px solid #AEAEAE;
 }
+#upcoming-performance-dates-wrapper ul {
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+}
+#upcoming-performance-dates-wrapper li {
+    margin: 0;
+    padding: 3px 6px 3px 6px;
+}
 
 /* grid addition class */
 
