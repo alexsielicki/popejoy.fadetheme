@@ -1047,7 +1047,7 @@ table.vertical td {
     padding: 3px 6px 3px 6px;
 }
 #upcoming-performance-dates-wrapper li.row-even {
-    background-color: #E4E4E4;
+    background-color: #F2F2F2;
 }
 
 /* grid addition class */
