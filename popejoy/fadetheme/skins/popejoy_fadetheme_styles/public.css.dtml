@@ -1035,6 +1035,7 @@ table.vertical td {
 #upcoming-performance-dates-wrapper {
     max-height: 300px;
     overflow: auto;
+    border: 1px solid #AEAEAE;
 }
 
 /* grid addition class */
