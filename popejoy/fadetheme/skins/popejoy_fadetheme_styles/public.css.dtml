@@ -1025,7 +1025,7 @@ table.vertical td {
 .tixBox {
 	float: right;
 	text-align: center;
-	margin: 20px 0px 20px 0px;
+	margin: 20px -20px 20px 0px;
 	clear: right;
 	width: 150px;
 }
@@ -1035,8 +1035,8 @@ table.vertical td {
 
 .performance-dates-wrapper {
     float: left;
-    margin-right: 50px;
-    min-width: 170px;
+    margin-right: 40px;
+    min-width: 210px;
 }
 .performance-dates-wrapper ul {
     margin-left: 13px;
