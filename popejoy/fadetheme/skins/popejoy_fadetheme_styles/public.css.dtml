@@ -1025,30 +1025,30 @@ table.vertical td {
 .tixBox {
 	float: right;
 	text-align: center;
-	margin: 20px;
+	margin: 20px 0px 20px 0px;
 	clear: right;
 	width: 150px;
 }
 #upcoming-performances {
 	margin: 20px 0;
 }
-#upcoming-performance-dates-wrapper {
-    max-height: 300px;
-    overflow: auto;
-    border: 1px solid #AEAEAE;
+
+.performance-dates-wrapper {
+    float: left;
+    margin-right: 50px;
+    min-width: 170px;
 }
-#upcoming-performance-dates-wrapper ul {
-    list-style-position: inside;
-    margin: 0;
-    padding: 0;
+.performance-dates-wrapper ul {
+    margin-left: 13px;
 }
-#upcoming-performance-dates-wrapper li {
-    margin: 0;
-    padding: 3px 6px 3px 6px;
+.performance-dates-wrapper li {
+    
 }
-#upcoming-performance-dates-wrapper li.row-even {
-    background-color: #F2F2F2;
+
+.performance-dates-wrapper li.row-even {
+    
 }
+
 
 /* grid addition class */
 
