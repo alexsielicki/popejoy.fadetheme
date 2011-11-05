@@ -107,4 +107,15 @@ div.eventlisting {
     font-weight: bold;
 }
 
+.starburstWrapper {
+    float: right;
+}
+.leftClear {
+    display: block;
+    clear: left;
+}
+.aboutTheShow {
+
+}
+
 /* </dtml-with> */
