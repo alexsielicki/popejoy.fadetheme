@@ -29,6 +29,7 @@ popejoy/fadetheme/browser/stylesheets/main.css
 popejoy/fadetheme/browser/templates/__init__.py
 popejoy/fadetheme/browser/templates/calendar.pt
 popejoy/fadetheme/browser/templates/colophon.pt
+popejoy/fadetheme/browser/templates/common.py
 popejoy/fadetheme/browser/templates/document_actions.pt
 popejoy/fadetheme/browser/templates/favicon.pt
 popejoy/fadetheme/browser/templates/footer.pt
@@ -86,8 +87,14 @@ popejoy/fadetheme/skins/popejoy_fadetheme_custom_images/prev.gif
 popejoy/fadetheme/skins/popejoy_fadetheme_custom_images/prev.psd
 popejoy/fadetheme/skins/popejoy_fadetheme_custom_images/read-more-btn.gif
 popejoy/fadetheme/skins/popejoy_fadetheme_custom_images/read-more-btn.psd
+popejoy/fadetheme/skins/popejoy_fadetheme_custom_images/subnav.gif
+popejoy/fadetheme/skins/popejoy_fadetheme_custom_images/subnav.psd
 popejoy/fadetheme/skins/popejoy_fadetheme_custom_images/subpage-alex.psd
 popejoy/fadetheme/skins/popejoy_fadetheme_custom_images/subpage.psd
+popejoy/fadetheme/skins/popejoy_fadetheme_custom_images/tickets-btn.gif
+popejoy/fadetheme/skins/popejoy_fadetheme_custom_images/tickets-btn.psd
+popejoy/fadetheme/skins/popejoy_fadetheme_custom_images/top-btns.gif
+popejoy/fadetheme/skins/popejoy_fadetheme_custom_images/top-btns.psd
 popejoy/fadetheme/skins/popejoy_fadetheme_custom_templates/CONTENT.txt
 popejoy/fadetheme/skins/popejoy_fadetheme_custom_templates/CX_props_macros.pt
 popejoy/fadetheme/skins/popejoy_fadetheme_custom_templates/folder_listing.pt

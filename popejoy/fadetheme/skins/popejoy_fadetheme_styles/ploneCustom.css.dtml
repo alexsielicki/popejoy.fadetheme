@@ -2,6 +2,14 @@
 /* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
 
 /* CalendarX */
+TABLE.calheader,
+div.calTabs a,
+TABLE.caltabs,
+TABLE.cal
+{
+    font-family: Arial,Helvetica,Lucida,sans-serif !important;
+    
+}
 .template-month .jumpday {
     display: none;
 }
@@ -16,17 +24,22 @@ div.calTabs a:visited
 {
     text-transform: capitalize !important;
     border-width: 0px !important;
-    background-color: #5F7271 !important;
+    background-color: #000000 !important;
     line-height: 27px;
     display: block;
     float: left;
     color: White !important;
     margin-top: 0px !important;
     margin-bottom: 0px !important;
+    border-radius: 8px 8px 0px 0px;
+    -moz-border-radius: 8px 8px 0px 0px;
+    -webkit-border-radius: 8px 8px 0px 0px;
+    
 }
 div.calTabs a.selected {
-    background-color: #972C23 !important;
+    background-color: #FAB300 !important;
     border-width: 0px !important;
+    color: black !important;
 }
 
 TABLE.caltabs {
@@ -37,11 +50,12 @@ DIV.calTabs {
 
 padding-bottom: 0px !important;
 border-top: 1px solid white; /* Needed to remove white space in IE7 */
-border-bottom: 7px solid #972C23 !important;
+border-bottom: 7px solid #FAB300 !important;
 }
 
 table.calheader td.center {
     text-transform: uppercase;
+    color: black;
 }
 table.calheader td.left,
 table.calheader td.right {
@@ -58,7 +72,7 @@ table.cal th {
 }
 
 table.cal td.event span.day {
-    color: #41687E;
+    color: white;
     font-weight: bold;
     font-size: 12px;
 }
@@ -83,6 +97,35 @@ div.eventlisting {
 .calendarxEvent .calx-eventtitle {
     font-weight: normal !important;
 }
+TABLE.cal TD.outOfMonth,
+TABLE.cal TD.noevent,
+TABLE.cal TR.noevent
+{
+    background-color: #DBDBDB !important;
+}
+body.template-day TABLE.cal TR.event:hover {
+    background-color: #375168 !important;
+}
+body.template-day TABLE.cal TR.event:hover,
+body.template-day TABLE.cal TR.event:hover td,
+body.template-day TABLE.cal TR.event:hover a {
+    color: white !important;
+}
+TABLE.cal TD.event {
+    background-color: #375168 !important;
+    color: white !important;
+}
+TABLE.cal TD.event a {
+    color: white !important;
+}
+TABLE.cal TD {
+    border: 2px solid white !important;
+}
+TABLE.cal TH {
+    background-color: transparent !important;
+    border: 2px solid white !important;
+}
+
 
 /* Cal Portlet */
 #full-cal {
