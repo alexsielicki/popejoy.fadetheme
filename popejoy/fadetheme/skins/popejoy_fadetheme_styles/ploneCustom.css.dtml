@@ -161,4 +161,9 @@ TABLE.cal TH {
 
 }
 
+/* previous season on season listing */
+.template-season_view #past-season {
+    margin-bottom: 40px;
+}
+
 /* </dtml-with> */
