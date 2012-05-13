@@ -166,4 +166,8 @@ TABLE.cal TH {
     margin-bottom: 40px;
 }
 
+.section-front-page #portal-columns {
+    position: relative;
+}
+
 /* </dtml-with> */
