@@ -197,4 +197,9 @@ body.atrefbrowser {
     margin-bottom: 30px;
     margin-top: 30px;
 }
+
+/* letting left images float next to right-floated Where/When box on events */
+.template-event_view .image-left {
+    clear: left;
+}
 /* </dtml-with> */
