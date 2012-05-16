@@ -120,7 +120,7 @@ body.kssActive h1.formlibInlineEditable:hover {
 #homepage-this-season h3 a {
 	color: #c5d4df !important;
 	text-decoration: none;
-	margin: 0 0 5px 0;
+	margin: 0 0 1px 0;
 }
 #homepage-this-season h3 a:hover {
     text-decoration: underline;
