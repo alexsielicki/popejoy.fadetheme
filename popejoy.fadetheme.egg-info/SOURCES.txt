@@ -115,5 +115,6 @@ popejoy/fadetheme/skins/popejoy_fadetheme_styles/invisibles.css.dtml
 popejoy/fadetheme/skins/popejoy_fadetheme_styles/member.css.dtml
 popejoy/fadetheme/skins/popejoy_fadetheme_styles/navtree.css.dtml
 popejoy/fadetheme/skins/popejoy_fadetheme_styles/ploneCustom.css.dtml
+popejoy/fadetheme/skins/popejoy_fadetheme_styles/popejoyPrint.css.dtml
 popejoy/fadetheme/skins/popejoy_fadetheme_styles/portlets.css.dtml
 popejoy/fadetheme/skins/popejoy_fadetheme_styles/public.css.dtml

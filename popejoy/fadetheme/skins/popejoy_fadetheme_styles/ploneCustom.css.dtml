@@ -202,4 +202,7 @@ body.atrefbrowser {
 .template-event_view .image-left {
     clear: left;
 }
+.documentActions {
+    margin-top: 3em;
+}
 /* </dtml-with> */
