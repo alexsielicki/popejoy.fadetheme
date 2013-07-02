@@ -205,4 +205,10 @@ body.atrefbrowser {
 .documentActions {
     margin-top: 3em;
 }
+
+/* hack for hiding Season Tickets starburst on 2014-2014 "Price is Right"  */
+.section-2013-2014 .price-is-right-live .seasonNew {
+    display: none;
+}
+
 /* </dtml-with> */
