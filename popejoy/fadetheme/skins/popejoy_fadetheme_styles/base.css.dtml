@@ -19,19 +19,19 @@
 
 body {
     font: &dtml-fontBaseSize; <dtml-var fontFamily>;
-    background-color: Black;
+    background-color: #19150A;
     color: &dtml-fontColor;;
     margin: 0;
     padding: 0;
 }
 #visual-portal-wrapper-one {
-    
+
 }
 #visual-portal-wrapper-two {
     
 }
 #visual-portal-wrapper-three {
-    background: transparent url(&dtml-portal_url;/main-background.jpg) no-repeat center bottom;
+    
 }
 table {
     font-size: 100%;

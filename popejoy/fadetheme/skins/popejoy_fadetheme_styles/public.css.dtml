@@ -299,12 +299,8 @@ body.kssActive h1.formlibInlineEditable:hover {
 }
 #portal-top {
     /* Top section */
-    margin: 20px 0 0 0;
+    margin: 0px 0 0 0;
     padding: 0;
-    background-color: &dtml-backgroundColor;;
-    border-radius: 8px 8px 0 0;
-    -moz-border-radius: 8px 8px 0 0;
-    -webkit-border-radius: 8px 8px 0 0;
 }
 #portal-header {
 	/* background: transparent url(&dtml-portal_url;/header-swirl.png) no-repeat 400px 200px; */
@@ -315,7 +311,6 @@ body.kssActive h1.formlibInlineEditable:hover {
 
 /* Site-wide action menu - font size, contact, index, sitemap etc */
 #portal-siteactions {
-    background: transparent url(&dtml-portal_url;/donate-bg.gif) no-repeat right top;
     white-space: nowrap;
     list-style-image: none;
     list-style-type: none;
@@ -326,35 +321,30 @@ body.kssActive h1.formlibInlineEditable:hover {
     padding: 0;
 }
 #portal-siteactions li {
-    display: inline;
+    display: block;
     margin: 0;
     padding: 0;
+    float: left;
 }
 #portal-siteactions li a {
-    background-color: transparent;
-    color: #020307;
+    background-color: #6F6D6D;
+    color: white;
     height: auto;
-    padding: 0.2em;
-    margin-right: 0.2em;
+    padding: 10px;
+    margin: 0;
     text-decoration: none;
-    text-transform: &dtml-textTransform;;
-    line-height: 53px;
+    text-transform: uppercase;
+    line-height: 20px;
+    display: block;
 }
 #portal-siteactions li.selected a {
     background-color: &dtml-globalBackgroundColor;;
     color: &dtml-globalFontColor;;
     border: &dtml-borderWidth; &dtml-borderStyle; &dtml-globalBorderColor;;
 }
-#portal-siteactions #siteaction-support a {
-    padding-right: 0;
-    margin-right: 0;
-}
-#portal-siteactions #siteaction-donate a {
-    font-weight: bold;
-    font-size: 13px;
-    background: transparent url(&dtml-portal_url;/donate.gif) no-repeat center center;
-    padding: 13px 18px;
-    margin-right: 10px;
+#portal-siteactions #siteaction-contact a {
+    background-color: #999797;
+    color: black;
 }
 #portal-siteactions li a:hover {
     
