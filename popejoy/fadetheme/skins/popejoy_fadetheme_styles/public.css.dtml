@@ -242,12 +242,12 @@ body.kssActive h1.formlibInlineEditable:hover {
 /* Newsletter signup form */
 #newsletter-signup {
 	position: absolute;
-	top: 72px;
+	top: 45px;
 	right: 10px;
 	width: 320px;
 	overflow: hidden;
-	background: transparent url(&dtml-portal_url;/dancer.gif) no-repeat right top;
 	padding-top: 7px;
+	text-align: right;
 }
 #newsletter-signup h1 {
 	color: #375168;
@@ -260,11 +260,19 @@ body.kssActive h1.formlibInlineEditable:hover {
 	color: #020307;
 	margin-top: 0px;
 	margin-bottom: 8px;
+	text-transform: none !important;
+}
+#newsletter-signup h1,
+#newsletter-signup h3
+{
+    text-align: right !important;
+    border-bottom-width: 0px !important;
+}
 }
 #newsletter-signup #ea {
-	width: 250px;
+	width: 180px;
 	border: 1px solid #ADBCA7;
-	background-color: #c5d4cf;
+	background-color: #ffffff;
 	padding: 6px;
 }
 #newsletter-signup input.inputLabelActive {
@@ -1306,12 +1314,12 @@ textarea.proportional {
 
 table#footer-table {
 	border-collapse: collapse;
-	margin: 0 auto;
+	margin-bottom: 40px;
 }
 table#footer-table th,
 table#footer-table td
 {
-    padding: 0 80px 0 0;
+    padding: 0 50px 0 0;
 }
 table#footer-table th.popejoyHallLastColumn,
 table#footer-table td.popejoyHallLastColumn
@@ -1349,7 +1357,6 @@ td#footer-right {
     /* display: inline !important; */
     font-size: 11px;
     padding: 0 0 0 0;
-    border-bottom: 1px solid #83979e;
     margin: 1.2em 0 0 0;
 }
 #portal-colophon ul li a {
@@ -1367,7 +1374,10 @@ td#footer-right {
 #portal-colophon #copyright,
 #portal-colophon #fostermilo 
 {
-    text-align: right;
+    text-align: left;
+}
+#portal-colophon #social-icons {
+    float: right;
 }
 
 .feedButton {

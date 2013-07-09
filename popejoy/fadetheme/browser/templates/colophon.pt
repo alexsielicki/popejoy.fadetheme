@@ -17,6 +17,23 @@
 
       <div class="colophonWrapper">
 
+<div id="newsletter-signup"  
+	tal:define="content nocall:context/components/get-popejoy-updates|nothing;"
+	tal:condition="exists:context/components/get-popejoy-updates">
+
+    <h1 tal:content="content/Title|nothing">
+        Get Popejoy Updates
+    </h1>
+
+    <h3 tal:content="structure content/Description|nothing">
+	Last minute alerts, news and discounts
+    </h3>
+
+    <div tal:replace="structure content/getText|nothing">
+    </div>
+
+</div>
+
 <div id="colophon-content"  
 	tal:define="content nocall:context/components/footer-contents|nothing;"
 	tal:condition="exists:context/components/footer-contents"
