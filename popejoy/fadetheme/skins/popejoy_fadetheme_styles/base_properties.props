@@ -5,7 +5,7 @@ plone_skin:string=Popejoy Fade Theme
 logoName:string=logo.gif
 
 fontFamily:string="Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif
-fontBaseSize:string=12px
+fontBaseSize:string=13px
 fontColor:string=#47494c
 fontSmallSize:string=10px
 

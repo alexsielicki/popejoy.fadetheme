@@ -189,6 +189,9 @@ body.kssActive h1.formlibInlineEditable:hover {
 }
 
 /* Links with differently colored link underlines - only for content */
+.documentContent a:hover {
+    text-decoration: underline;
+}
 .documentContent p a {
 
 }
@@ -244,24 +247,25 @@ body.kssActive h1.formlibInlineEditable:hover {
 #newsletter-signup {
 	position: absolute;
 	top: 45px;
-	right: 10px;
+	right: 30px;
 	width: 320px;
 	overflow: hidden;
 	padding-top: 7px;
 	text-align: right;
 }
 #newsletter-signup h1 {
-	color: #375168;
+	color: #eeeeee !important;
 	margin-bottom: 0px;
 	margin-top: 0px;
 	text-transform: uppercase;
-	letter-spacing: -1px;
+	font-size: 17px !important;
 }
 #newsletter-signup h3 {
-	color: #020307;
+	color: #e48a00 !important;
 	margin-top: 0px;
 	margin-bottom: 8px;
 	text-transform: none !important;
+	font-size: 13px !important;
 }
 #newsletter-signup h1,
 #newsletter-signup h3
@@ -917,7 +921,7 @@ dl.searchResults span.documentByLine {
     float: right;
     width: 35%;
     clear: right;
-    background-color: transparent;
+    background-color: #19150A;
     border-left: 4px solid &dtml-globalBorderColor;;
 }
 .callout {
@@ -1265,10 +1269,10 @@ textarea.proportional {
 #portal-colophon {
     float: none;
     margin: 0 0 0 0;
-    padding: 0 0 1em 0;
+    padding: 30px;
     color: #c5d4cf;
-    height: 340px;
     position: relative;
+    background-color: #343434;
 }
 #portal-colophon a {
 	color: #83979e;
@@ -1276,7 +1280,6 @@ textarea.proportional {
 }
 #portal-colophon a:hover {
 	text-decoration: underline;
-	color: #c5d4cf;
 }
 #portal-colophon p,
 #footer-table p
@@ -1291,7 +1294,7 @@ textarea.proportional {
     font-weight: bold;
 }
 #portal-colophon .colophonWrapper {
-	padding: 55px 0 0 0;
+	padding: 0 0 0 0;
 }
 #portal-colophon h1,
 #portal-colophon h2,
@@ -1302,11 +1305,13 @@ textarea.proportional {
 #footer-table h3,
 #footer-table h4
 {
-	color: #c5d4cf;
+	color: #e48a00;
 	margin: 0;
 	text-transform: uppercase;
-	border-bottom: 1px solid #c5d4cf;
+	border-bottom: 1px solid #e48a00;
 	text-align: left;
+	font-size: 17px;
+	line-height: 1.4em;
 }
 
 table#footer-table {
@@ -1324,7 +1329,7 @@ table#footer-table td.popejoyHallLastColumn
     padding-right: 0;
 }
 table#footer-table td.popejoyHallLastColumn {
-    padding-top: 13px;
+    
 }
 table#footer-table td.popejoyHallFirstColumn {
     padding-right: 40px;
@@ -1352,18 +1357,16 @@ td#footer-right {
 }
 #portal-colophon ul li {
     /* display: inline !important; */
-    font-size: 11px;
     padding: 0 0 0 0;
     margin: 1.2em 0 0 0;
 }
 #portal-colophon ul li a {
     text-decoration: none;
-    color: #83979e;
+    color: #eeeeee;
     display: block;
 }
 #portal-colophon ul li a:hover {
-    text-decoration: none;
-    color: #c5d4cf;
+    text-decoration: underline;
 }
 #colophon-content {
 	margin-bottom: 14px;

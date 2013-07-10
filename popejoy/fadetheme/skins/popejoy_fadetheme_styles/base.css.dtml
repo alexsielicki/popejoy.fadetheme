@@ -39,6 +39,7 @@ table {
 a {
     color: &dtml-linkColor;;
     background-color: transparent;
+    text-decoration: none;
 }
 img {
     border: none;
