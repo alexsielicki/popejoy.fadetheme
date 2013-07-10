@@ -346,8 +346,11 @@ body.kssActive h1.formlibInlineEditable:hover {
     background-color: #999797;
     color: black;
 }
-#portal-siteactions li a:hover {
-    
+#portal-siteactions li a:hover,
+#portal-siteactions #siteaction-contact a:hover
+{
+    background-color: #383838;
+    color: white;
 }
 
 /* Searchbox style and positioning */
@@ -508,16 +511,13 @@ form.searchPage input.searchButton {
 
 /* The global section tabs. */
 #portal-globalnav {
-    background: transparent url(&dtml-portal_url;/subnav.gif) no-repeat left top;
     padding: 0em 0em 0em 0em;
     white-space: nowrap;
     list-style: none;
     margin: 0;
     line-height: normal;
     overflow: hidden;
-    width: 939px;
     height: 103px;
-    margin-left: -13px;
     position: absolute;
     top: 175px;
     left: 0px;
@@ -530,7 +530,7 @@ form.searchPage input.searchButton {
 .template-search #portal-globalnav,
 .section-events #portal-globalnav
 {
-    background-image: url(&dtml-portal_url;/navigation.png);
+    
 }
 .section-front-page #portal-header,
 .section-now-playing #portal-header,
@@ -540,7 +540,7 @@ form.searchPage input.searchButton {
 .template-search #portal-header,
 .section-events #portal-header
 {
-    height: 253px;
+    
 }
 #portal-globalnav li {
     display: block;
@@ -556,23 +556,24 @@ form.searchPage input.searchButton {
     color: White;
     height: auto;
     margin-right: 0;
-    line-height: 56px;
+    line-height: 90px;
     text-decoration: none;
     text-transform: &dtml-textTransform;;
     display: block;
     text-align: center;
     font-size: 17px;
     font-weight: bold;
-    text-shadow: -1px -1px #7f0b09;
+    background-color: #383838;
+    width: 149px;
 }
 #portal-globalnav li.iteration2 a,
 #portal-globalnav li.iteration3 a,
 #portal-globalnav li.iteration4 a,
 #portal-globalnav li.iteration5 a{
-    width: 152px;
+    
 }
 #portal-globalnav li.iteration6 a {
-    width: 160px;
+    /*width: 160px;*/
 }
 #portal-globalnav li.selected a {
     /* The selected tab. There's only one of this */
@@ -581,6 +582,7 @@ form.searchPage input.searchButton {
     height: auto;
     margin-right: 0;
     display: block;
+    background-color: #999797;
 }
 #portal-globalnav li.iteration1 a {
 	width: 165px;
@@ -591,8 +593,7 @@ form.searchPage input.searchButton {
 
 
 #portal-globalnav li a:hover {
-	/* background-color: &dtml-deepRedColor;; */
-    text-decoration: underline;
+    background-color: #6F6D6D;
 }
 
 /* Subtabs */
