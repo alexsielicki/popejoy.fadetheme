@@ -11,8 +11,7 @@
     width: 100% !important;
     border-collapse: collapse;
     border-spacing: 0;
-    background-color: &dtml-backgroundColor;;
-    border-radius: 0px 0px 8px 8px;
+    background-color: transparent;
     -moz-border-radius: 0px 0px 8px 8px;
     -webkit-border-radius: 0px 0px 8px 8px;
 }

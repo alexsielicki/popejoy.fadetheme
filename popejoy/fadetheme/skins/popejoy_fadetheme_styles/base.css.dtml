@@ -60,9 +60,12 @@ hr {
     margin: 0.5em 0 1em 0;
 }
 h1, h2, h3, h4, h5, h6 {
-    color: Black;
+    color: #999797;
     font-family: <dtml-var headingFontFamily>;
     margin: 0.75em 0 0.75em 0;
+    text-transform: uppercase;
+    border-bottom: 1px solid &dtml-globalBorderColor;;
+    line-height: 2em;
 }
 h1 a,
 h2 a,
@@ -70,17 +73,22 @@ h3 a,
 h4 a,
 h5 a,
 h6 a {
-    color: &dtml-fontColor; ! important;
+    color: #999797 ! important;
     text-decoration: none;
 }
-h1 {
-    font-size: 22px;
+h1,
+h1 a
+{
+    font-size: 40px;
+    color: #eeeeee;
+    border-bottom-width: 0;
+    line-height: normal;
 }
 h2 {
-    font-size: 18px;
+    font-size: 21px;
 }
 h3 {
-    font-size: 14px;
+    font-size: 18px;
     border-bottom: none;
     font-weight: normal;
 }

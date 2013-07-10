@@ -4,26 +4,26 @@ plone_skin:string=Popejoy Fade Theme
 
 logoName:string=logo.gif
 
-fontFamily:string=Arial, Helvetica, Lucida, sans-serif
+fontFamily:string="Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif
 fontBaseSize:string=12px
 fontColor:string=#47494c
 fontSmallSize:string=10px
 
 backgroundColor:string=White
 
-linkColor:string=#41687e
-linkActiveColor:string=Red
-linkVisitedColor:string=#5f7271
+linkColor:string=#f2ad42
+linkActiveColor:string=#c28a35
+linkVisitedColor:string=#c28a35
 
 borderWidth:string=1px
 borderStyle:string=solid
 borderStyleAnnotations:string=solid
 
-globalBorderColor:string=#a8c3c3
+globalBorderColor:string=#737171
 globalBackgroundColor:string=#a8c3c3
 globalFontColor:string=#436976
 
-headingFontFamily:string=Arial, Helvetica, Lucida, sans-serif
+headingFontFamily:string="Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif
 
 contentViewBorderColor:string=#74ae0b
 contentViewBackgroundColor:string=#cde2a7
