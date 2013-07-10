@@ -319,6 +319,9 @@ body.kssActive h1.formlibInlineEditable:hover {
     line-height: normal;
     float: right;
     padding: 0;
+    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+    font-weight: normal;
+    font-size: 13px;
 }
 #portal-siteactions li {
     display: block;
@@ -328,13 +331,13 @@ body.kssActive h1.formlibInlineEditable:hover {
 }
 #portal-siteactions li a {
     background-color: #6F6D6D;
-    color: white;
+    color: #e1e1e1;
     height: auto;
-    padding: 10px;
+    padding: 10px 20px;
     margin: 0;
     text-decoration: none;
     text-transform: uppercase;
-    line-height: 20px;
+    line-height: 30px;
     display: block;
 }
 #portal-siteactions li.selected a {
@@ -344,13 +347,13 @@ body.kssActive h1.formlibInlineEditable:hover {
 }
 #portal-siteactions #siteaction-contact a {
     background-color: #999797;
-    color: black;
+    color: #2e2e2e;
 }
 #portal-siteactions li a:hover,
 #portal-siteactions #siteaction-contact a:hover
 {
     background-color: #383838;
-    color: white;
+    color: #e1e1e1;
 }
 
 /* Searchbox style and positioning */
@@ -558,11 +561,12 @@ form.searchPage input.searchButton {
     margin-right: 0;
     line-height: 90px;
     text-decoration: none;
-    text-transform: &dtml-textTransform;;
+    text-transform: uppercase;
     display: block;
     text-align: center;
+    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
     font-size: 17px;
-    font-weight: bold;
+    font-weight: normal;
     background-color: #383838;
     width: 149px;
 }
