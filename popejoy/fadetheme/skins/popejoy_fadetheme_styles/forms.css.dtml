@@ -80,7 +80,7 @@ fieldset {
     width: auto;
 }
 legend {
-    background: &dtml-backgroundColor;;
+    background: transparent;
     padding: 0.5em;
     font-size: 90%;
 }
