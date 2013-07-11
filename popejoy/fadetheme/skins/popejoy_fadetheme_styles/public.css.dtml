@@ -17,7 +17,7 @@ body.smallText { font-size: 60%; }
     padding: 2em 0em 1em 2em;
 }
 #portal-column-two .visualPadding {
-    padding: 10px;
+    padding: 10px 0 10px 10px;
 }
 .section-front-page #portal-column-two .visualPadding {
     position: relative;
@@ -232,7 +232,7 @@ body.kssActive h1.formlibInlineEditable:hover {
     margin: 0 auto;
     padding: 0;
     color: white;
-    width: 913px;
+    width: 960px;
     position: relative;
 }
 
@@ -246,7 +246,7 @@ body.kssActive h1.formlibInlineEditable:hover {
 /* Newsletter signup form */
 #newsletter-signup {
 	position: absolute;
-	top: 45px;
+	top: 25px;
 	right: 30px;
 	width: 320px;
 	overflow: hidden;
@@ -576,7 +576,7 @@ form.searchPage input.searchButton {
     font-size: 17px;
     font-weight: normal;
     background-color: #383838;
-    width: 149px;
+    width: 160px;
 }
 #portal-globalnav li.iteration2 a,
 #portal-globalnav li.iteration3 a,
@@ -597,7 +597,7 @@ form.searchPage input.searchButton {
     background-color: #999797;
 }
 #portal-globalnav li.iteration1 a {
-	width: 165px;
+	
 }
 .section-front-page #portal-globalnav li.selected a {
 	
@@ -855,6 +855,7 @@ dl.portalMessage dd {
     padding: 0.5em 0.5em; 
     margin: 0;
     line-height: 1.25em;
+    color: black;
 }
 dl.warning {
     border-color: #d80;
@@ -1320,7 +1321,7 @@ textarea.proportional {
 table#footer-table {
 	border-collapse: collapse;
 	margin-bottom: 40px;
-	width: 500px;
+	width: 565px;
 }
 table#footer-table th,
 table#footer-table td
