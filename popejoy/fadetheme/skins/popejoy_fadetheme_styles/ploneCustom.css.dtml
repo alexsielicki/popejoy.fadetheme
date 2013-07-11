@@ -158,7 +158,7 @@ TABLE.cal TH {
     clear: left;
 }
 .aboutTheShow {
-
+    clear: both;
 }
 
 /* previous season on season listing */

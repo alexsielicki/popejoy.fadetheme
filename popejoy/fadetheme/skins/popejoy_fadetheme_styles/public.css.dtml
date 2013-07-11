@@ -275,16 +275,19 @@ body.kssActive h1.formlibInlineEditable:hover {
 }
 }
 #newsletter-signup #ea {
-	width: 180px;
+	width: 160px;
 	border: 1px solid #ADBCA7;
 	background-color: #ffffff;
 	padding: 6px;
+	display: inline-block;
+	height: 18px;
+	font-size: 13px;
 }
 #newsletter-signup input.inputLabelActive {
     color: #555555;
 }
 #newsletter-signup input.submit {
-	background: #e2a407 url(&dtml-portal_url;/button-bg.gif) repeat-x center top;
+	background-color: #E48A00;
 	color: white;
 	border: 1px solid #d09502;
 	cursor: pointer;
@@ -1317,11 +1320,12 @@ textarea.proportional {
 table#footer-table {
 	border-collapse: collapse;
 	margin-bottom: 40px;
+	width: 500px;
 }
 table#footer-table th,
 table#footer-table td
 {
-    padding: 0 50px 0 0;
+    padding: 0 40px 0 0;
 }
 table#footer-table th.popejoyHallLastColumn,
 table#footer-table td.popejoyHallLastColumn
