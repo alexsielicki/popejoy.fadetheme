@@ -76,14 +76,18 @@ body.kssActive h1.formlibInlineEditable:hover {
 	position: relative;
 }
 #homepage-body-text {
-	height: 280px;
+	height: 623px;
 	overflow: hidden;
-	width: 275px;
-	padding: 20px;
+	width: 315px;
+	padding: 0px;
 	margin-top: 20px;
 	position: absolute;
 	right: -325px;
 	background-color: #999797;
+	font-size: 17px;
+}
+#homepage-body-text #parent-fieldname-text {
+    padding: 20px;
 }
 #homepage-body-text h2 {
 	font-size: 21px;
@@ -92,16 +96,32 @@ body.kssActive h1.formlibInlineEditable:hover {
 	line-height: 22px;
 	margin-top: 0;
 	padding-bottom: 10px;
+	padding-top: 0px;
+}
+#homepage-body-text hr {
+    height: 20px;
+    color: #19150A;
+    background: #19150A;
+    margin: 20px -20px;
+}
+.documentContent #homepage-body-text ul {
+    margin-left: 0;
+    list-style-type: none;
+    list-style-image: none;
+    color: #19150a;
+    line-height: 20px;
+}
+#homepage-body-text a {
+    color: #19150a;
 }
 #homepage-this-season-wrapper {
-	position: absolute;
-	top: 320px;
+	top: 0px;
 	left: 0px;
 	width: 621px;
-	height: 667px;
 	padding: 0px;
 	overflow: hidden;
 	background-color: #383838;
+	margin: 20px 0px;
 }
 #homepage-this-season {
 	height: 100%;
