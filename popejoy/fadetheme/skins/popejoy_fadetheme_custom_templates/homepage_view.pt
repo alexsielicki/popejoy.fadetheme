@@ -103,8 +103,10 @@ window.addEvent('domready', startGallery);
 <a href="#" tal:attributes="href performance/getURL|performance/absolute_url;">
                         <img src="" alt=""
                              tal:condition="exists:performance/aq_parent/image_preview"
-                             tal:replace="structure python: path('nocall:performance/tag')(scale='preview', css_class='homepagePerformanceImage')" />
+                             tal:replace="structure python: path('nocall:performance/tag')(scale='wideheader', css_class='homepagePerformanceImage')" />
                     </a>
+
+<div class="performanceTickets"><a href="#" tal:attributes="href performance/getURL|performance/absolute_url;"></a></div>
 <div class="performanceText">
 <h3>
 	<a href="#" tal:attributes="href performance/getURL|performance/absolute_url;"
@@ -117,8 +119,6 @@ window.addEvent('domready', startGallery);
 </tal:startDate>
 
 <div class="performanceDescription" tal:content="python: performance.aq_parent.Description()">[Performance Description]</div>
-
-<div class="performanceTickets"><a href="#" tal:attributes="href performance/getURL|performance/absolute_url;">Tickets & Info</a></div>
 </div>
 <div class="visualClear"><!-- --></div>
 </div>

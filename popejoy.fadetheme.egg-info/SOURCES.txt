@@ -72,6 +72,7 @@ popejoy/fadetheme/skins/popejoy_fadetheme_custom_images/homepage-portlet-backgro
 popejoy/fadetheme/skins/popejoy_fadetheme_custom_images/index-alex.psd
 popejoy/fadetheme/skins/popejoy_fadetheme_custom_images/index.psd
 popejoy/fadetheme/skins/popejoy_fadetheme_custom_images/list-image.png
+popejoy/fadetheme/skins/popejoy_fadetheme_custom_images/logo-yellow.psd
 popejoy/fadetheme/skins/popejoy_fadetheme_custom_images/logo.gif
 popejoy/fadetheme/skins/popejoy_fadetheme_custom_images/logo.png
 popejoy/fadetheme/skins/popejoy_fadetheme_custom_images/logo.psd
@@ -80,10 +81,12 @@ popejoy/fadetheme/skins/popejoy_fadetheme_custom_images/main-background.psd
 popejoy/fadetheme/skins/popejoy_fadetheme_custom_images/navigation.png
 popejoy/fadetheme/skins/popejoy_fadetheme_custom_images/navigation.psd
 popejoy/fadetheme/skins/popejoy_fadetheme_custom_images/next.gif
+popejoy/fadetheme/skins/popejoy_fadetheme_custom_images/next.png
 popejoy/fadetheme/skins/popejoy_fadetheme_custom_images/next.psd
 popejoy/fadetheme/skins/popejoy_fadetheme_custom_images/pattern.gif
 popejoy/fadetheme/skins/popejoy_fadetheme_custom_images/pattern.psd
 popejoy/fadetheme/skins/popejoy_fadetheme_custom_images/prev.gif
+popejoy/fadetheme/skins/popejoy_fadetheme_custom_images/prev.png
 popejoy/fadetheme/skins/popejoy_fadetheme_custom_images/prev.psd
 popejoy/fadetheme/skins/popejoy_fadetheme_custom_images/read-more-btn.gif
 popejoy/fadetheme/skins/popejoy_fadetheme_custom_images/read-more-btn.psd
