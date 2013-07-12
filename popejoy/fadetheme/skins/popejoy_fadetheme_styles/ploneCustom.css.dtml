@@ -211,4 +211,51 @@ body.atrefbrowser {
     display: none;
 }
 
+/* Portlets */
+.portlet {
+    border-bottom-width: 0px;
+    background-color: #343434;
+}
+.portletItem {
+    border-width: 0;
+}
+/* Navigation Tree */
+.portletNavigationTree {
+
+}
+.portletNavigationTree .portletHeader {
+    display: none;
+}
+.navTreeItem a, dd.portletItem .navTreeItem a,
+.navTreeCurrentItem
+{
+    border-color: #343434 !important;
+}
+.navTreeItem a, dd.portletItem .navTreeItem a {
+    color: #a2a2a2;
+    font-size: 17px;
+}
+.navTreeItem a:hover,
+dd.portletItem .navTreeItem a:hover 
+{
+    background-color: transparent;
+    border-color: #343434;
+    color: #fefefe;
+    text-decoration: underline;
+}
+.navTreeCurrentItem {
+    background-color: transparent;
+    color: #fefefe !important;
+}
+/* First nav item is the heading */
+.navTreeLevel0 > .navTreeItem:first-child a {
+    text-transform: uppercase;
+    color: #fefefe !important;
+    font-size: 23px;
+    border-bottom: 1px solid #737171 !important;
+    margin-bottom: 20px;
+}
+.navTreeLevel0 > .navTreeItem:first-child a:hover {
+    text-decoration: none;
+}
 /* </dtml-with> */
