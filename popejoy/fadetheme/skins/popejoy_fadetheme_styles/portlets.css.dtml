@@ -132,7 +132,7 @@
 }
 .portletItem {
     margin: 0;
-    padding: 1em;
+    padding: 20px;
     border-left: &dtml-borderWidth; &dtml-borderStyle; &dtml-globalBorderColor;;
     border-right: &dtml-borderWidth; &dtml-borderStyle; &dtml-globalBorderColor;;
 }
@@ -181,7 +181,7 @@
     margin: 0;
     width: 100%;
     /* background: &dtml-portletBackgroundColor; url(&dtml-portal_url;/homepage-portlet-background.png) repeat-x top left; */
-    color: black;
+    color: #999797;
     border-width: 0px;
 }
 .section-front-page .portletCalendar {
@@ -197,15 +197,15 @@
     display: none;
 }
 .portletCalendar dt {
-    background: #fab300 url(&dtml-portal_url;/pattern.gif) repeat center top;
     font-weight: bold;
     text-align: center;
     line-height: 19px;
-    border: 2px solid #fab300;
-    font-size: 13px;
+    font-size: 19px;
     text-transform: uppercase;
-    padding: 0px 10px;
-    color: #020307;
+    padding: 20px 20px 10px 20px;
+    color: #999797;
+    border-width: 0;
+    background-color: transparent;
 }
 .portletCalendar #calendar-previous,
 .portletCalendar #calendar-next
@@ -235,7 +235,7 @@
 }
 .portletCalendar dd {
     margin: 0;
-    padding: 0 0px 0px 0px;
+    padding: 0 20px 20px 20px;
     border-width: 0px;
 }
 .portletCalendar a {
@@ -250,13 +250,14 @@
     width: 100%;
     border-color: #fab300;
     border-style: solid;
-    border-width: 0px 2px 2px 2px;
+    border-width: 0px 0px 0px 0px;
 }
 .ploneCalendar td {
     background-color: #dbdbdb;
     width: 14%;
     text-align: center;
     padding: 2px;
+    color: #020307;
 }
 .ploneCalendar .weekdays th {
     text-align: center;
@@ -267,7 +268,7 @@
 .ploneCalendar .event,
 .ploneCalendar .todayevent
 {
-    background-color: #375168;
+    background-color: #ca7e09;
     font-weight: normal;
 }
 .ploneCalendar .todayevent {
@@ -277,7 +278,7 @@
 .ploneCalendar .todaynoevent {
     border-collapse: collapse;
     border: 2px &dtml-borderStyle; #BB1614;
-    background-color: transparent;
+    background-color: white;
     font-weight: bold;
 }
 .ploneCalendar a,
