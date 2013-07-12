@@ -33,7 +33,7 @@
     margin: 0em 0em 2em 0em;
 }
 .section-front-page #portal-column-content {
-	padding: 0 0 0 6px;
+	padding: 0 0 0 0px;
 }
 #portal-column-two {
     vertical-align: top;
@@ -42,7 +42,11 @@
     padding: 0;    
 }
 .section-front-page #portal-column-two {
-    padding-right: 6px;
+    padding-right: 0px;
+    width: 325px;
+}
+.section-front-page #portal-column-two .portletSearch {
+    display: none;
 }
 
 /* fullscreen */

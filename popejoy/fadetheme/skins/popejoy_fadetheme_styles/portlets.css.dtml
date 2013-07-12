@@ -185,6 +185,8 @@
     border-width: 0px;
 }
 .section-front-page .portletCalendar {
+    height: 300px;
+    overflow: hidden;
 	/*
 	position: absolute;
 	background: transparent none;
@@ -256,7 +258,7 @@
     background-color: #dbdbdb;
     width: 14%;
     text-align: center;
-    padding: 2px;
+    padding: 1px;
     color: #020307;
 }
 .ploneCalendar .weekdays th {
