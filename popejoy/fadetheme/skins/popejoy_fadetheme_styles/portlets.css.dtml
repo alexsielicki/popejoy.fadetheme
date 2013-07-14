@@ -185,8 +185,9 @@
     border-width: 0px;
 }
 .section-front-page .portletCalendar {
-    height: 300px;
+    height: 350px;
     overflow: hidden;
+    background: #383838 url(&dtml-portal_url;/plus.png) no-repeat right bottom;
 	/*
 	position: absolute;
 	background: transparent none;

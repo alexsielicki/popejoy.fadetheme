@@ -47,7 +47,7 @@ body.kssActive h1.formlibInlineEditable:hover {
 }
 #homepage-slideshow {
 	width: 621px;
-	height: 300px;
+	height: 350px;
 	background-color: black;
 	overflow: hidden;
 }
@@ -65,7 +65,7 @@ body.kssActive h1.formlibInlineEditable:hover {
 }
 #myGallery {
 	width: 621px;
-	height: 300px;
+	height: 350px;
 	overflow: hidden;
 }
 .slideElement {
@@ -1121,10 +1121,6 @@ table.plain th {
 
 /* Batch selector */
 .listingBar {
-    background-color: &dtml-globalBackgroundColor;;
-    border-color: &dtml-globalBorderColor;;
-    border-style: &dtml-borderStyle;;
-    border-width: &dtml-borderWidth;;
     padding: 0em 1em;
     text-align: center;
     text-transform: &dtml-textTransform;;
@@ -1163,6 +1159,7 @@ table.plain th {
 }
 .tileHeadline a {
     text-decoration: none;
+    color: #E48A00 !important;
 }
 .tileBody {
     margin-bottom: 0.5em;

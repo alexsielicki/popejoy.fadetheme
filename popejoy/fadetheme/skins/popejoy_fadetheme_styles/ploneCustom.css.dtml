@@ -24,11 +24,11 @@ div.calTabs a:visited
 {
     text-transform: capitalize !important;
     border-width: 0px !important;
-    background-color: #000000 !important;
+    background-color: white !important;
     line-height: 27px;
     display: block;
     float: left;
-    color: White !important;
+    color: black !important;
     margin-top: 0px !important;
     margin-bottom: 0px !important;
     border-radius: 8px 8px 0px 0px;
@@ -37,7 +37,7 @@ div.calTabs a:visited
     
 }
 div.calTabs a.selected {
-    background-color: #FAB300 !important;
+    background-color: #E48A00 !important;
     border-width: 0px !important;
     color: black !important;
 }
@@ -50,12 +50,12 @@ DIV.calTabs {
 
 padding-bottom: 0px !important;
 border-top: 1px solid white; /* Needed to remove white space in IE7 */
-border-bottom: 7px solid #FAB300 !important;
+border-bottom: 7px solid #E48A00 !important;
 }
 
 table.calheader td.center {
     text-transform: uppercase;
-    color: black;
+    color: white;
 }
 table.calheader td.left,
 table.calheader td.right {
@@ -69,6 +69,7 @@ table.cal {
 table.cal th {
     font-size: 12px;
     text-transform: uppercase;
+    color: white !important;
 }
 
 table.cal td.event span.day {
@@ -119,11 +120,20 @@ TABLE.cal TD.event a {
     color: white !important;
 }
 TABLE.cal TD {
-    border: 2px solid white !important;
+    border: 2px solid #19150A !important;
 }
 TABLE.cal TH {
     background-color: transparent !important;
-    border: 2px solid white !important;
+    border: 2px solid #19150A !important;
+}
+
+DIV.calTabs {
+    border-top-width: 0;
+}
+TABLE.caltabs TD.body {
+    border-left-width: 0 !important;
+    border-right-width: 0 !important;
+    border-bottom-width: 0 !important;
 }
 
 
@@ -140,6 +150,13 @@ TABLE.cal TH {
     color: #eeeeee;
     font-size: 11px;
     font-weight: bold;
+}
+.section-front-page #full-cal a {
+    display: block;
+    height: 150px;
+    margin-right: -20px;
+    margin-left: -20px;
+    padding-right: 23px;
 }
 .portletCalendar .calendarHeading {
     color: #fefefe;
