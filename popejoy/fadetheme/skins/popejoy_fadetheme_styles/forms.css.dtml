@@ -162,6 +162,7 @@ input.searchButton {
 .searchSection {
     color: &dtml-discreetColor;;
     margin-top: 0.25em;
+    display: none;
 }
 .searchSection label:hover {
     color: &dtml-fontColor;;

@@ -76,7 +76,7 @@ body.kssActive h1.formlibInlineEditable:hover {
 	position: relative;
 }
 #homepage-body-text {
-	height: 623px;
+	height: 640px;
 	overflow: hidden;
 	width: 315px;
 	padding: 0px;
@@ -122,6 +122,7 @@ body.kssActive h1.formlibInlineEditable:hover {
 	overflow: hidden;
 	background-color: #383838;
 	margin: 20px 0px;
+	height: 640px;
 }
 #homepage-this-season {
 	height: 100%;
@@ -321,6 +322,7 @@ body.kssActive h1.formlibInlineEditable:hover {
 	display: inline-block;
 	height: 18px;
 	font-size: 13px;
+	margin-right: 3px;
 }
 #newsletter-signup input.inputLabelActive {
     color: #555555;
@@ -409,12 +411,34 @@ body.kssActive h1.formlibInlineEditable:hover {
     float: right;
     clear: right;
     background-color: transparent;
-    margin: 1.5em 0 0 0;
-    padding: 0 2em 0 0;
+    margin: 75px 0 0 0;
+    padding: 0 0em 0 0;
     text-align: right;
     text-transform: &dtml-textTransform;;
     white-space: nowrap;
     z-index: 2;
+}
+#portal-searchbox input {
+    background-color: #FFFFFF;
+    border: 1px solid #ADBCA7;
+    display: inline-block;
+    font-size: 13px;
+    height: 18px;
+    padding: 6px;
+    width: 160px;
+}
+#portal-searchbox input.searchButton {
+    background-color: #E48A00;
+    border: 1px solid #D09502;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 5px 0;
+    text-shadow: -1px -1px #D09502;
+    text-transform: uppercase;
+    width: 55px;
+    margin: 0 !important;
+    height: 32px;
 }
 #portal-advanced-search {
     margin-top: 0.2em;
@@ -1149,13 +1173,17 @@ table.plain th {
 }
 .tileItem {
     border-top: &dtml-borderWidth; &dtml-borderStyle; &dtml-globalBorderColor;;
-    padding-top: 0.5em;
-    margin-top: 0.5em;
+    padding-top: 20px;
+    margin-top: 20px;
 }
 .tileHeadline {
     border: none;
     font-size: 110%;
     font-weight: bold;
+}
+.contenttype-show .tileHeadline {
+    line-height: 1.5em;
+    margin-top: 0;
 }
 .tileHeadline a {
     text-decoration: none;
@@ -1174,6 +1202,17 @@ table.plain th {
     width: 20em;
     clear: right;
     margin: 0 0 0.5em 1em;
+}
+.eventDetails table th,
+.eventDetails table td
+{
+    border-color: #19150A !important;
+}
+.eventDetails td {
+    color: black !important;
+}
+.eventDetails th {
+    background-color: #6F6D6D !important;
 }
 .template-performance_view .eventDetails {
     display: none;

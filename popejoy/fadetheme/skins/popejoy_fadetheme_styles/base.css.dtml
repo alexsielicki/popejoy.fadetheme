@@ -126,13 +126,10 @@ dd {
     margin-bottom: 1em;
 }
 abbr, acronym, .explain {
-    border-bottom: &dtml-borderWidth; dotted &dtml-fontColor;;
-    color: &dtml-fontColor;;
-    background-color: transparent;
-    cursor: help;
+    border-bottom-width: 0;
 }
 abbr .explain {
-    border-bottom: none;
+    border-bottom-width: 0;
 }
 q {
     font-family: Baskerville, Georgia, serif;

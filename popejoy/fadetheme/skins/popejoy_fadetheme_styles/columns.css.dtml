@@ -46,6 +46,9 @@
     width: 325px;
 }
 .section-front-page #portal-column-two .portletSearch {
+    
+}
+.template-season_view #portal-column-two {
     display: none;
 }
 
