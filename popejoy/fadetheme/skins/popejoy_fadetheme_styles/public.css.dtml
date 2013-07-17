@@ -162,7 +162,7 @@ body.kssActive h1.formlibInlineEditable:hover {
 	list-style-image: none;
 	list-style-type: none;
 	float: right;
-	margin-top: 2px;
+	margin-top: 22px;
 }
 #homepage-this-season #season-links li {
     display: inline;
@@ -173,7 +173,7 @@ body.kssActive h1.formlibInlineEditable:hover {
     display: inline-block;
     height: 26px;
     line-height: 26px;
-    padding: 0 13px;
+    padding: 0 0 0 13px;
     text-decoration: none;
     text-transform: lowercase;
     font-size: 11px;
@@ -280,7 +280,7 @@ body.kssActive h1.formlibInlineEditable:hover {
 #portal-logo img {
     border: 0;
     padding: 0;
-    margin: 20px 0px 15px 15px;
+    margin: 26px 0px 15px 15px;
 }
 
 /* Newsletter signup form */
@@ -411,7 +411,7 @@ body.kssActive h1.formlibInlineEditable:hover {
     float: right;
     clear: right;
     background-color: transparent;
-    margin: 75px 0 0 0;
+    margin: 72px 0 0 0;
     padding: 0 0em 0 0;
     text-align: right;
     text-transform: &dtml-textTransform;;
