@@ -252,6 +252,11 @@ body.atrefbrowser {
     display: none;
 }
 
+/* Shrinking size of show title for now playing page */
+.section-now-playing #performance h1 {
+    font-size: 30px;
+}
+
 /* Portlets */
 .portlet {
     border-bottom-width: 0px;

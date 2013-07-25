@@ -306,6 +306,7 @@ body.kssActive h1.formlibInlineEditable:hover {
 	margin-bottom: 8px;
 	text-transform: none !important;
 	font-size: 13px !important;
+	padding-bottom: 9px;
 }
 #newsletter-signup h1,
 #newsletter-signup h3
