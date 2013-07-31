@@ -191,13 +191,18 @@ TABLE.caltabs TD.body {
 
 .starburstWrapper {
     float: right;
+    background-color: #19150A;
+    margin-top: 70px;
+    padding-left: 20px;
+    
+    
 }
 .leftClear {
     display: block;
     clear: left;
 }
 .aboutTheShow {
-    clear: both;
+    clear: left;
 }
 
 /* previous season on season listing */
