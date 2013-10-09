@@ -1,0 +1,65 @@
+/* <dtml-with base_properties> (do not remove this :) */
+/* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
+
+.section-front-page #portal-column-content {
+    display: block;
+    width: 100%;
+}
+.section-front-page #portal-column-two {
+    display: block;
+    width: 100%;
+}
+
+#homepage-body-text {
+    height: auto;
+    width: auto;
+    position: static;
+}
+
+.section-front-page .portletCalendar {
+    height: auto;
+    background-image: none;
+}
+.section-front-page .portletCalendar .calendarHeading {
+    display: none !important;
+}
+.section-front-page #full-cal a {
+    height: auto !important;
+    
+    display: block;
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-right: 23px;
+}
+
+
+#portal-footer #homepage-bottom td:first-child, 
+#portal-footer #homepage-bottom td:last-child 
+{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+#portal-footer #homepage-bottom td:last-child h2 {
+    border-bottom-width: 0;
+    padding-bottom: 0;
+    margin-bottom: 5px;
+    margin-top: 30px;
+    color: #999797;
+}
+
+table#footer-table,
+#newsletter-signup
+{
+    display: none;
+}
+#portal-colophon #social-icons {
+    float: none;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#portal-colophon #copyright, #portal-colophon #fostermilo {
+    text-align: center;
+}
+
+/* </dtml-with> */

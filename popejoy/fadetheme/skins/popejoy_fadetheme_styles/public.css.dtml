@@ -338,6 +338,9 @@ body.kssActive h1.formlibInlineEditable:hover {
 	padding: 5px 0px;
 	width: 55px;
 	font-weight: bold;
+    /* Stop ios safari from styling buttons as it wants */
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
 }
 
 /* The skin switcher at the top, only shows up if you have multiple skins available */
@@ -440,6 +443,9 @@ body.kssActive h1.formlibInlineEditable:hover {
     width: 55px;
     margin: 0 !important;
     height: 32px;
+    /* Stop ios safari from styling buttons as it wants */
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
 }
 #portal-advanced-search {
     margin-top: 0.2em;
