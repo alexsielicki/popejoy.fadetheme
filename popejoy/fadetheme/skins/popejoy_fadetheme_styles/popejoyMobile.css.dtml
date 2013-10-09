@@ -1,13 +1,44 @@
 /* <dtml-with base_properties> (do not remove this :) */
 /* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
 
+#visual-portal-wrapper {
+    width: 641px;
+}
+#portal-globalnav {
+    display: none;
+}
+#portal-column-content {
+    padding: 0px 10px !important;
+}
+
 .section-front-page #portal-column-content {
     display: block;
-    width: 100%;
 }
 .section-front-page #portal-column-two {
     display: block;
     width: 100%;
+}
+
+#homepage-this-season-wrapper {
+    width: auto;
+}
+#homepage-this-season #season-links {
+    display: none;
+}
+#homepage-this-season h2 {
+    border-bottom-width: 0;
+}
+.homepagePerformanceImage {
+    width: 100%;
+    height: auto;
+}
+
+#portal-searchbox {
+    display: none;
+}
+
+#performance-listing-homepage .performanceDescription {
+    white-space: normal;
 }
 
 #homepage-body-text {
@@ -32,7 +63,9 @@
     padding-right: 23px;
 }
 
-
+#portal-footer {
+    /*width: 100%;*/
+}
 #portal-footer #homepage-bottom td:first-child, 
 #portal-footer #homepage-bottom td:last-child 
 {
