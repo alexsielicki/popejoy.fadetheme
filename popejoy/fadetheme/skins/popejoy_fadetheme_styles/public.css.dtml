@@ -1000,7 +1000,7 @@ dl.searchResults span.documentByLine {
 }
 .callout {
     font-weight: bold;
-    color: #CC9933;
+    color: #999797;
     padding: 0px 1em;
 }
 

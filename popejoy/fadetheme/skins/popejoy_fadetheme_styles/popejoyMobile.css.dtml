@@ -4,17 +4,53 @@
 #visual-portal-wrapper {
     width: 641px;
 }
+#portal-header {
+    position: static;
+}
 #portal-globalnav {
-    display: none;
+    /*display: none;*/
+    height: auto;
+    white-space: normal;
+    overflow: visible;
+    position: static;
+}
+#portal-globalnav li {
+    float: none;
+}
+#portal-globalnav li a {
+    width: auto;
+    line-height: 50px;
 }
 #portal-column-content {
     padding: 0px 10px !important;
 }
 
+#portal-siteactions {
+    position: absolute;
+    z-index: 200;
+    bottom: 75px;
+    width: 100%;
+    text-align: center;
+}
+#portal-siteactions li {
+    float: none;
+    display: inline-block;
+}
+#portal-siteactions li a {
+    line-height: 20px;
+}
 .section-front-page #portal-column-content {
     display: block;
 }
 .section-front-page #portal-column-two {
+    display: block;
+    width: 100%;
+}
+#portal-column-content {
+    display: block;
+    width: 100%;
+}
+#portal-column-two {
     display: block;
     width: 100%;
 }
@@ -89,7 +125,7 @@ table#footer-table,
 #portal-colophon #social-icons {
     float: none;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
 }
 #portal-colophon #copyright, #portal-colophon #fostermilo {
     text-align: center;
