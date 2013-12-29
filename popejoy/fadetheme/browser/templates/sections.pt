@@ -2,6 +2,23 @@
           i18n:domain="plone">
     <h5 class="hiddenStructure" i18n:translate="heading_sections">Sections</h5>
 
+    <div id="mobile-nav-header">
+	<a href="#" tal:attributes="href string:${context/portal_url};">
+	    <img id="mobile-logo" src="logo.jpg" alt="Popejoy Presents" 
+		tal:attributes="src string:${context/portal_url}/logo.gif;" />
+	</a>
+	<div id="mobile-nav-button">
+	    &#8801;
+	</div>
+    </div>
+
+    <script type="text/javascript">
+	// Toggle display of nav drop-down for mobile
+	jq("#mobile-nav-button").click(function(event){
+	    jq("#portal-globalnav").toggle();
+	});
+    </script>
+
     <ul id="portal-globalnav"><tal:tabs tal:repeat="tab view/portal_tabs"><li 
     tal:define="is_last python: repeat['tab'].end and 'last' or '';
 		number string:iteration${repeat/tab/number};

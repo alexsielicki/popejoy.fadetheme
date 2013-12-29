@@ -309,4 +309,7 @@ dd.portletItem .navTreeItem a:hover
 .navTreeLevel0 > .navTreeItem:first-child a:hover {
     text-decoration: none;
 }
+#mobile-nav-header {
+    display: none;
+}
 /* </dtml-with> */

@@ -6,13 +6,30 @@
 }
 #portal-header {
     position: static;
+    height: 90px;
+}
+#portal-logo {
+    display: none;
+}
+#mobile-nav-header {
+    display: block !important;
+}
+#mobile-logo {
+    height: 70px;
+}
+#mobile-nav-button {
+    float: right;
+    font-size: 60px;
 }
 #portal-globalnav {
-    /*display: none;*/
+    display: none;
     height: auto;
     white-space: normal;
     overflow: visible;
-    position: static;
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    top: 80px;
 }
 #portal-globalnav li {
     float: none;
