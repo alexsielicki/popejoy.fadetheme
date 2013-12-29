@@ -68,7 +68,7 @@
     <tal:comment replace="nothing"> A slot where you can insert javascript in the header from a template </tal:comment>
     <metal:javascriptslot define-slot="javascript_head_slot" />
   
-    <meta name="viewport" content="width=320,initial-scale=1.0">
+    <meta name="viewport" content="width=760" />
   </head>
 
   <body tal:attributes="class string:${here/getSectionFromURL} template-${template/id};

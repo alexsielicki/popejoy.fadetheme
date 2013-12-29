@@ -30,6 +30,7 @@
     z-index: 99;
     width: 100%;
     top: 80px;
+    background-color: #383838;
 }
 #portal-globalnav li {
     float: none;
@@ -45,7 +46,7 @@
 #portal-siteactions {
     position: absolute;
     z-index: 200;
-    bottom: 75px;
+    bottom: 100px;
     width: 100%;
     text-align: center;
 }
@@ -55,6 +56,8 @@
 }
 #portal-siteactions li a {
     line-height: 20px;
+    background-color: transparent !important;
+    color: #E1E1E1 !important;
 }
 .section-front-page #portal-column-content {
     display: block;
@@ -139,13 +142,20 @@ table#footer-table,
 {
     display: none;
 }
+#portal-colophon {
+    
+}
+#portal-colophon .colophonWrapper {
+    height: 160px;
+}
 #portal-colophon #social-icons {
     float: none;
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 90px;
 }
 #portal-colophon #copyright, #portal-colophon #fostermilo {
     text-align: center;
+    font-size: 10px;
 }
 
 /* </dtml-with> */
