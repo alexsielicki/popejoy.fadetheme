@@ -13,16 +13,24 @@
 }
 #mobile-nav-header {
     display: block !important;
+    margin-top: 10px;
 }
 #mobile-logo {
     height: 70px;
 }
 #mobile-nav-button {
     float: right;
-    font-size: 80px;
-    line-height: 80px;
+    padding: 0px 7px;
     background-color: #383838;
-    padding: 5px;
+}
+#mobile-nav-button img {
+    background-color: #383838;
+    height: 70px;
+}
+#mobile-nav-button #nav-icon {
+    height: 56px;
+    padding: 7px;
+    margin-left: 3px;
 }
 #portal-globalnav-wrapper {
     display: none;

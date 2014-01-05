@@ -7,7 +7,12 @@
 	    <img id="mobile-logo" src="logo.jpg" alt="Popejoy Presents" 
 		tal:attributes="src string:${context/portal_url}/logo.gif;" />
 	</a>
-	<div id="mobile-nav-button">&#8801;</div>
+	<div id="mobile-nav-button">
+	    <img id="search-icon" src="1388984099_icon-search.png" alt="Search" 
+		tal:attributes="src string:${context/portal_url}/1388984099_icon-search.png;" />
+	    <img id="nav-icon" src="1388984160_menu-24.png" alt="Navigation" 
+		tal:attributes="src string:${context/portal_url}/1388984160_menu-24.png;" />
+	</div>
     </div>
 
     <ul id="portal-globalnav"><tal:tabs tal:repeat="tab view/portal_tabs"><li 
