@@ -19,17 +19,22 @@
 }
 #mobile-nav-button {
     float: right;
-    font-size: 60px;
+    font-size: 80px;
+    line-height: 80px;
+    background-color: #383838;
+    padding: 5px;
+}
+#portal-globalnav-wrapper {
+    display: none;
 }
 #portal-globalnav {
-    display: none;
     height: auto;
     white-space: normal;
     overflow: visible;
     position: absolute;
     z-index: 99;
     width: 100%;
-    top: 80px;
+    top: 159px;
     background-color: #383838;
 }
 #portal-globalnav li {
@@ -37,7 +42,8 @@
 }
 #portal-globalnav li a {
     width: auto;
-    line-height: 50px;
+    line-height: 70px;
+    font-size: 36px;
 }
 #portal-column-content {
     padding: 0px 10px !important;
@@ -46,7 +52,7 @@
 #portal-siteactions {
     position: absolute;
     z-index: 200;
-    bottom: 100px;
+    bottom: 64px;
     width: 100%;
     text-align: center;
 }
@@ -55,9 +61,10 @@
     display: inline-block;
 }
 #portal-siteactions li a {
-    line-height: 20px;
+    line-height: 30px;
     background-color: transparent !important;
     color: #E1E1E1 !important;
+    font-size: 23px;
 }
 .section-front-page #portal-column-content {
     display: block;
@@ -88,9 +95,36 @@
     width: 100%;
     height: auto;
 }
-
 #portal-searchbox {
     display: none;
+}
+#portal-globalnav-wrapper #portal-searchbox
+{
+    display: block;
+}
+#portal-globalnav-wrapper #portal-searchbox {
+    position: absolute;
+    top: 0px;
+    z-index: 9;
+    margin: 0;
+    padding: 20px 0px 0px 0px;
+    background-color: #383838;
+    width: 641px;
+    top: 80px;
+}
+#portal-globalnav-wrapper #portal-searchbox .LSBox {
+    float: none;
+    text-align: center;
+}
+#portal-globalnav-wrapper #portal-searchbox input:first-child {
+    width: 400px;
+    font-size: 36px;
+    height: 40px;
+}
+#portal-globalnav-wrapper #portal-searchbox input.searchButton {
+    font-size: 36px;
+    height: 54px;
+    width: 152px;
 }
 
 #performance-listing-homepage .performanceDescription {
@@ -101,8 +135,29 @@
     height: auto;
     width: auto;
     position: static;
+    display: none; /* Hiding for now */
 }
-
+.section-front-page #portal-column-two .visualPadding {
+    height: auto;
+}
+.portletCalendar dt {
+    font-size: 36px;
+}
+.portletCalendar .eventsHeading {
+    color: white;
+}
+.ploneCalendar .weekdays th {
+    
+}
+.ploneCalendar td,
+.ploneCalendar th
+{
+    height: 40px;
+    font-size: 36px;
+}
+.ploneCalendar td a {
+    /*line-height: 36px;*/
+}
 .section-front-page .portletCalendar {
     height: auto;
     background-image: none;
@@ -151,11 +206,14 @@ table#footer-table,
 #portal-colophon #social-icons {
     float: none;
     text-align: center;
-    margin-bottom: 90px;
+    margin-bottom: 66px;
 }
 #portal-colophon #copyright, #portal-colophon #fostermilo {
     text-align: center;
     font-size: 10px;
+}
+#social-icons img {
+    height: 60px;
 }
 
 /* </dtml-with> */

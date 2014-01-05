@@ -312,4 +312,7 @@ dd.portletItem .navTreeItem a:hover
 #mobile-nav-header {
     display: none;
 }
+#portal-globalnav-wrapper #portal-searchbox {
+    display: none;
+}
 /* </dtml-with> */

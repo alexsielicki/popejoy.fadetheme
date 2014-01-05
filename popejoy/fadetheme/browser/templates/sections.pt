@@ -7,17 +7,8 @@
 	    <img id="mobile-logo" src="logo.jpg" alt="Popejoy Presents" 
 		tal:attributes="src string:${context/portal_url}/logo.gif;" />
 	</a>
-	<div id="mobile-nav-button">
-	    &#8801;
-	</div>
+	<div id="mobile-nav-button">&#8801;</div>
     </div>
-
-    <script type="text/javascript">
-	// Toggle display of nav drop-down for mobile
-	jq("#mobile-nav-button").click(function(event){
-	    jq("#portal-globalnav").toggle();
-	});
-    </script>
 
     <ul id="portal-globalnav"><tal:tabs tal:repeat="tab view/portal_tabs"><li 
     tal:define="is_last python: repeat['tab'].end and 'last' or '';
@@ -56,6 +47,14 @@
     </tal:block>
     </tal:block>
     
+    <script type="text/javascript">
+	jq("#portal-globalnav").wrap("<div id='portal-globalnav-wrapper' />");
+	jq("#portal-searchbox").clone().prependTo("#portal-globalnav-wrapper");
+	// Toggle display of nav drop-down for mobile
+	jq("#mobile-nav-button").click(function(event){
+	    jq("#portal-globalnav-wrapper").toggle();
+	});
+    </script>
 </tal:tabs>
 
 
