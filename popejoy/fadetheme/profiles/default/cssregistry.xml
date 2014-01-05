@@ -36,13 +36,15 @@
   
   <stylesheet title=""
     id="popejoyMobile.css"
-    media="only screen and (max-width : 767px)" 
+    media="only screen and (max-device-width : 767px)" 
     rel="stylesheet" 
     rendering="link"
     cacheable="True" 
     compression="safe" 
     cookable="True"
     enabled="1" 
-    expression=""/>
+    expression=""
+    insert-after="ploneCustom.css"
+  />
     
 </object>
