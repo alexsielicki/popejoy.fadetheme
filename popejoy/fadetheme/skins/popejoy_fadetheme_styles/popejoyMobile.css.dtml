@@ -233,4 +233,8 @@ table#footer-table,
     padding-right: 10px;
 }
 
+div.eventlisting {
+    font-size: 25px;
+}
+
 /* </dtml-with> */
