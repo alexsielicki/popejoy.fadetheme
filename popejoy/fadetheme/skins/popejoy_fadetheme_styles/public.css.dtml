@@ -104,7 +104,7 @@ body.kssActive h1.formlibInlineEditable:hover {
     background: #19150A;
     margin: 20px -20px;
 }
-.documentContent #homepage-body-text ul {
+#homepage-body-text ul {
     margin-left: 0;
     list-style-type: none;
     list-style-image: none;

@@ -309,10 +309,11 @@ dd.portletItem .navTreeItem a:hover
 .navTreeLevel0 > .navTreeItem:first-child a:hover {
     text-decoration: none;
 }
-#mobile-nav-header {
-    display: none;
-}
-#portal-globalnav-wrapper #portal-searchbox {
+/* Hiding some things from non-mobile devices */
+#mobile-nav-header,
+#portal-globalnav-wrapper #portal-searchbox,
+#portal-column-two #homepage-body-text
+{
     display: none;
 }
 /* </dtml-with> */

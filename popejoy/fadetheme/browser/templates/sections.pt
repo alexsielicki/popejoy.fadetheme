@@ -59,6 +59,9 @@
 	jq("#mobile-nav-button").click(function(event){
 	    jq("#portal-globalnav-wrapper").toggle();
 	});
+	jq(function(){
+	    jq(".template-homepage_view #homepage-body-text").clone().appendTo("#portal-column-two .visualPadding");
+	});
     </script>
 </tal:tabs>
 
