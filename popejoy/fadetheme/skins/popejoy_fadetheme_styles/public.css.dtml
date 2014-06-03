@@ -139,7 +139,7 @@ body.kssActive h1.formlibInlineEditable:hover {
 }
 #homepage-this-season h3,
 #homepage-this-season h3 a {
-	color: #e48a00 !important;
+	color: #f2a93d !important;
 	text-decoration: none;
 	margin: 0 0 1px 0;
 	font-size: 19px;
@@ -301,7 +301,7 @@ body.kssActive h1.formlibInlineEditable:hover {
 	font-size: 17px !important;
 }
 #newsletter-signup h3 {
-	color: #e48a00 !important;
+	color: #97ccbd !important;
 	margin-top: 0px;
 	margin-bottom: 8px;
 	text-transform: none !important;
@@ -329,12 +329,12 @@ body.kssActive h1.formlibInlineEditable:hover {
     color: #555555;
 }
 #newsletter-signup input.submit {
-	background-color: #E48A00;
+	background-color: #5cb8a1;
 	color: white;
-	border: 1px solid #d09502;
+	border: 1px solid #97ccbd;
 	cursor: pointer;
 	text-transform: uppercase;
-	text-shadow:-1px -1px #D09502;
+	/*text-shadow:-1px -1px #D09502;*/
 	padding: 5px 0px;
 	width: 55px;
 	font-weight: bold;
@@ -433,12 +433,14 @@ body.kssActive h1.formlibInlineEditable:hover {
 }
 #portal-searchbox input.searchButton {
     background-color: #E48A00;
+    background-color: #5cb8a1;
     border: 1px solid #D09502;
+    border: 1px solid #97ccbd;
     color: white;
     cursor: pointer;
     font-weight: bold;
     padding: 5px 0;
-    text-shadow: -1px -1px #D09502;
+    /*text-shadow: -1px -1px #97ccbd;*/
     text-transform: uppercase;
     width: 55px;
     margin: 0 !important;
@@ -959,7 +961,7 @@ dl.error dd {
     margin: 0em 0em 0.5em 0em;
     line-height: 1.3em;
     font-size: 19px;
-    color: #e48a00;
+    color: #f2a93d;
     font-family: <dtml-var headingFontFamily>;
 }
 .documentByLine {
@@ -1373,7 +1375,7 @@ textarea.proportional {
 }
 #portal-colophon .visualHighlight {
     text-transform: uppercase;
-    color: #f9b401;
+    color: #97ccbd;
     background: transparent;
     font-weight: bold;
 }
@@ -1389,10 +1391,10 @@ textarea.proportional {
 #footer-table h3,
 #footer-table h4
 {
-	color: #e48a00;
+	color: #97ccbd;
 	margin: 0;
 	text-transform: uppercase;
-	border-bottom: 1px solid #e48a00;
+	border-bottom: 1px solid #97ccbd;
 	text-align: left;
 	font-size: 17px;
 	line-height: 1.4em;

@@ -271,7 +271,7 @@
 .ploneCalendar .event,
 .ploneCalendar .todayevent
 {
-    background-color: #ca7e09;
+    background-color: #5cb8a1;
     font-weight: normal;
 }
 .ploneCalendar .todayevent {
