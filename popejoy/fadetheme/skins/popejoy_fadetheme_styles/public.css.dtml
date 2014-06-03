@@ -432,9 +432,7 @@ body.kssActive h1.formlibInlineEditable:hover {
     width: 160px;
 }
 #portal-searchbox input.searchButton {
-    background-color: #E48A00;
     background-color: #5cb8a1;
-    border: 1px solid #D09502;
     border: 1px solid #97ccbd;
     color: white;
     cursor: pointer;
@@ -1198,7 +1196,7 @@ table.plain th {
 }
 .tileHeadline a {
     text-decoration: none;
-    color: #E48A00 !important;
+    color: #f2a93d !important;
 }
 .tileBody {
     margin-bottom: 0.5em;
