@@ -315,4 +315,9 @@ dd.portletItem .navTreeItem a:hover
 {
     display: none;
 }
+table.listing a,
+table.cal .eventlisting a
+{
+    color: #538475;
+}
 /* </dtml-with> */
