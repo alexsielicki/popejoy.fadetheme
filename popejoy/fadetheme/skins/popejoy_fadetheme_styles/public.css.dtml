@@ -271,7 +271,7 @@ body.kssActive h1.formlibInlineEditable:hover {
 #visual-portal-wrapper {
     margin: 0 auto;
     padding: 0;
-    color: white;
+    color: black;
     width: 960px;
     position: relative;
 }
@@ -280,7 +280,9 @@ body.kssActive h1.formlibInlineEditable:hover {
 #portal-logo img {
     border: 0;
     padding: 0;
-    margin: 26px 0px 15px 15px;
+    margin: 67px 0px 15px 15px;
+    width: 425px;
+    height: auto;
 }
 
 /* Newsletter signup form */
@@ -383,8 +385,8 @@ body.kssActive h1.formlibInlineEditable:hover {
     float: left;
 }
 #portal-siteactions li a {
-    background-color: #6F6D6D;
-    color: #e1e1e1;
+    background-color: #4c4d4f;
+    color: white;
     height: auto;
     padding: 10px 20px;
     margin: 0;
@@ -399,14 +401,14 @@ body.kssActive h1.formlibInlineEditable:hover {
     border: &dtml-borderWidth; &dtml-borderStyle; &dtml-globalBorderColor;;
 }
 #portal-siteactions #siteaction-contact a {
-    background-color: #999797;
-    color: #2e2e2e;
+    background-color: #65aca8;
+    color: white;
 }
 #portal-siteactions li a:hover,
 #portal-siteactions #siteaction-contact a:hover
 {
     background-color: #383838;
-    color: #e1e1e1;
+    color: white;
 }
 
 /* Searchbox style and positioning */
@@ -424,7 +426,7 @@ body.kssActive h1.formlibInlineEditable:hover {
 }
 #portal-searchbox input {
     background-color: #FFFFFF;
-    border: 1px solid #ADBCA7;
+    border: 1px solid #CFCFCF;
     display: inline-block;
     font-size: 13px;
     height: 18px;
@@ -446,6 +448,7 @@ body.kssActive h1.formlibInlineEditable:hover {
     /* Stop ios safari from styling buttons as it wants */
     -webkit-appearance: none;
     -webkit-border-radius: 0;
+    display: none;
 }
 #portal-advanced-search {
     margin-top: 0.2em;
@@ -645,7 +648,7 @@ form.searchPage input.searchButton {
     font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
     font-size: 17px;
     font-weight: normal;
-    background-color: #383838;
+    background-color: #537a7f;
     width: 160px;
 }
 #portal-globalnav li.iteration2 a,
@@ -664,7 +667,7 @@ form.searchPage input.searchButton {
     height: auto;
     margin-right: 0;
     display: block;
-    background-color: #999797;
+    background-color: #65aca8;
 }
 #portal-globalnav li.iteration1 a {
 	
@@ -675,7 +678,7 @@ form.searchPage input.searchButton {
 
 
 #portal-globalnav li a:hover {
-    background-color: #6F6D6D;
+    background-color: #4c4d4f;
 }
 
 /* Subtabs */
