@@ -139,7 +139,7 @@ body.kssActive h1.formlibInlineEditable:hover {
 }
 #homepage-this-season h3,
 #homepage-this-season h3 a {
-	color: #e18256 !important;
+	color: #eb9770 !important;
 	text-decoration: none;
 	margin: 0 0 1px 0;
 	font-size: 19px;
@@ -297,14 +297,14 @@ body.kssActive h1.formlibInlineEditable:hover {
 	text-align: right;
 }
 #newsletter-signup h1 {
-	color: #eeeeee !important;
+	color: #3b3b3d !important;
 	margin-bottom: 0px;
 	margin-top: 0px;
 	text-transform: uppercase;
 	font-size: 17px !important;
 }
 #newsletter-signup h3 {
-	color: #97ccbd !important;
+	color: #3b3b3d !important;
 	margin-top: 0px;
 	margin-bottom: 8px;
 	text-transform: none !important;
@@ -319,7 +319,9 @@ body.kssActive h1.formlibInlineEditable:hover {
 }
 }
 #newsletter-signup #ea {
-	width: 160px;
+    /* 160px is the width when we show a submit button */
+	/* width: 160px; */
+    width: 260px;
 	border: 1px solid #ADBCA7;
 	background-color: #ffffff;
 	padding: 6px;
@@ -344,6 +346,7 @@ body.kssActive h1.formlibInlineEditable:hover {
     /* Stop ios safari from styling buttons as it wants */
     -webkit-appearance: none;
     -webkit-border-radius: 0;
+    display: none;
 }
 
 /* The skin switcher at the top, only shows up if you have multiple skins available */
@@ -1294,6 +1297,7 @@ textarea.proportional {
 }
 #portal-footer p {
     margin: 0.25em 0;
+    color: white;
 }
 #portal-footer h2 {
 	font-size: 22px;
@@ -1302,6 +1306,7 @@ textarea.proportional {
 	text-transform: uppercase;
 	border-bottom-width: 0;
 	margin-top: 0;
+    color: white;
 }
 #portal-footer #homepage-bottom td:last-child h2 {
     color: #ffffff;
@@ -1355,7 +1360,7 @@ textarea.proportional {
     float: none;
     margin: 0 0 0 0;
     padding: 20px;
-    color: #c5d4cf;
+    color: #3b3b3d;
     position: relative;
     background-color: #343434;
 }
@@ -1363,7 +1368,7 @@ textarea.proportional {
     background-color: transparent;
 }
 #portal-colophon a {
-	color: #83979e;
+	color: #65ACA8;
 	text-decoration: none;
 }
 #portal-colophon a:hover {
@@ -1377,7 +1382,7 @@ textarea.proportional {
 }
 #portal-colophon .visualHighlight {
     text-transform: uppercase;
-    color: #97ccbd;
+    color: #65aca8;
     background: transparent;
     font-weight: bold;
 }
@@ -1393,10 +1398,10 @@ textarea.proportional {
 #footer-table h3,
 #footer-table h4
 {
-	color: #97ccbd;
+	color: #65aca8;
 	margin: 0;
 	text-transform: uppercase;
-	border-bottom: 1px solid #97ccbd;
+	border-bottom: 1px solid #65aca8;
 	text-align: left;
 	font-size: 17px;
 	line-height: 1.4em;
@@ -1451,7 +1456,7 @@ td#footer-right {
 }
 #portal-colophon ul li a {
     text-decoration: none;
-    color: #eeeeee;
+    color: #3b3b3d;
     display: block;
 }
 #portal-colophon ul li a:hover {
@@ -1460,10 +1465,14 @@ td#footer-right {
 #colophon-content {
 	margin-bottom: 14px;
 }
+#portal-colophon #copyright {
+    font-weight: bold;
+}
 #portal-colophon #copyright,
 #portal-colophon #fostermilo 
 {
     text-align: left;
+    color: #65aca8 !important;
 }
 #portal-colophon #social-icons {
     float: right;

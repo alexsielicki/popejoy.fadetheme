@@ -11,9 +11,9 @@ fontSmallSize:string=10px
 
 backgroundColor:string=White
 
-linkColor:string=#97ccbd
+linkColor:string=#537a7f
 linkActiveColor:string=#5cb8a1
-linkVisitedColor:string=#97ccbd
+linkVisitedColor:string=#6c9095
 
 borderWidth:string=1px
 borderStyle:string=solid
