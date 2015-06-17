@@ -264,7 +264,7 @@ body.atrefbrowser {
 /* Portlets */
 .portlet {
     border-bottom-width: 0px;
-    background-color: #343434;
+    background-color: #4c4d4f;
 }
 .portletItem {
     border-width: 0;
@@ -279,7 +279,7 @@ body.atrefbrowser {
 .navTreeItem a, dd.portletItem .navTreeItem a,
 .navTreeCurrentItem
 {
-    border-color: #343434 !important;
+    border-color: #4c4d4f !important;
 }
 .navTreeItem a, dd.portletItem .navTreeItem a {
     color: #a2a2a2;

@@ -1362,7 +1362,7 @@ textarea.proportional {
     padding: 20px;
     color: #3b3b3d;
     position: relative;
-    background-color: #343434;
+    background-color: #dbdbdb;
 }
 .section-front-page #portal-colophon {
     background-color: transparent;
