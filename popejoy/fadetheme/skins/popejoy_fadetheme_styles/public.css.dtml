@@ -91,7 +91,7 @@ body.kssActive h1.formlibInlineEditable:hover {
 }
 #homepage-body-text h2 {
 	font-size: 21px;
-	color: #ffffff;
+	color: #537a7f;
 	border-bottom: 1px solid #c4c1c1;
 	line-height: 22px;
 	margin-top: 0;
@@ -139,7 +139,7 @@ body.kssActive h1.formlibInlineEditable:hover {
 }
 #homepage-this-season h3,
 #homepage-this-season h3 a {
-	color: #f2a93d !important;
+	color: #e18256 !important;
 	text-decoration: none;
 	margin: 0 0 1px 0;
 	font-size: 19px;
@@ -192,6 +192,7 @@ body.kssActive h1.formlibInlineEditable:hover {
 	overflow: hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap;
+    font-weight: bold;
 }
 #performance-listing-homepage .performanceTickets {
     float: left;
