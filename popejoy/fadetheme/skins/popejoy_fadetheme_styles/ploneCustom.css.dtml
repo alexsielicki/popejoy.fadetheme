@@ -190,7 +190,7 @@ TABLE.caltabs TD.body {
 
 .starburstWrapper {
     float: right;
-    background-color: #19150A;
+    background-color: white;
     margin-top: 70px;
     padding-left: 20px;
     

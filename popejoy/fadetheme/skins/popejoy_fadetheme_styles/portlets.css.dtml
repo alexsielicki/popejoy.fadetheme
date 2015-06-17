@@ -187,7 +187,7 @@
 .section-front-page .portletCalendar {
     height: 350px;
     overflow: hidden;
-    background: #383838 url(&dtml-portal_url;/plus.png) no-repeat right bottom;
+    background: #4c4d4f url(&dtml-portal_url;/plus.png) no-repeat right bottom;
 	/*
 	position: absolute;
 	background: transparent none;
@@ -271,7 +271,7 @@
 .ploneCalendar .event,
 .ploneCalendar .todayevent
 {
-    background-color: #5cb8a1;
+    background-color: #e18256;
     font-weight: normal;
 }
 .ploneCalendar .todayevent {
