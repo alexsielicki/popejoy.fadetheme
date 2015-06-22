@@ -68,7 +68,7 @@ table.cal {
 table.cal th {
     font-size: 12px;
     text-transform: uppercase;
-    color: white !important;
+    color: 3b3b3d !important;
 }
 
 table.cal td.event span.day {
@@ -119,11 +119,11 @@ TABLE.cal TD.event a {
     color: white !important;
 }
 TABLE.cal TD {
-    border: 2px solid #19150A !important;
+    border: 2px solid white !important;
 }
 TABLE.cal TH {
     background-color: transparent !important;
-    border: 2px solid #19150A !important;
+    border: 2px solid white !important;
 }
 
 DIV.calTabs {

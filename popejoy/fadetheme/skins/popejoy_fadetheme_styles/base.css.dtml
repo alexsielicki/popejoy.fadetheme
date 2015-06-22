@@ -81,7 +81,7 @@ h1,
 h1 a
 {
     font-size: 40px;
-    color: #eeeeee;
+    color: #3b3b3d;
     border-bottom-width: 0;
     line-height: normal;
 }
