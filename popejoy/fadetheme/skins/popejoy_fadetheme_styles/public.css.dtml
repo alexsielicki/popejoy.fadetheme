@@ -1188,13 +1188,13 @@ table.plain th {
     text-decoration: none;
 }
 .tileItem {
-    border-top: &dtml-borderWidth; &dtml-borderStyle; &dtml-globalBorderColor;;
+    border-top: 0px &dtml-borderStyle; &dtml-globalBorderColor;;
     padding-top: 20px;
     margin-top: 20px;
 }
 .tileHeadline {
     border: none;
-    font-size: 110%;
+    font-size: 175%;
     font-weight: bold;
 }
 .contenttype-show .tileHeadline {
@@ -1211,7 +1211,7 @@ table.plain th {
 .tileImage {
     float: right;
     margin: 0 0 0.5em 0.5em;
-    border: 1px solid black;
+    border: 0px solid black;
 }
 .eventDetails {
     float: right;
