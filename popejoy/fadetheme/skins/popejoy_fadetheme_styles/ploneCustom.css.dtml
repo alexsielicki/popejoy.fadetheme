@@ -112,7 +112,7 @@ body.template-day TABLE.cal TR.event:hover a {
     color: white !important;
 }
 TABLE.cal TD.event {
-    background-color: #375168 !important;
+    background-color: #E18256 !important;
     color: white !important;
 }
 TABLE.cal TD.event a {
@@ -319,5 +319,8 @@ table.listing a,
 table.cal .eventlisting a
 {
     color: #538475;
+}
+.template-season_view h1 {
+    border-bottom: 1px solid black;
 }
 /* </dtml-with> */
