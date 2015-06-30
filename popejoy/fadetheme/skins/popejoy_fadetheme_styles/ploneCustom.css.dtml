@@ -323,4 +323,7 @@ table.cal .eventlisting a
 .template-season_view h1 {
     border-bottom: 1px solid black;
 }
+.template-season_view h2 {
+    font-weight: normal;
+}
 /* </dtml-with> */
