@@ -682,7 +682,7 @@ form.searchPage input.searchButton {
 
 
 #portal-globalnav li a:hover {
-    background-color: #4c4d4f;
+    background-color: #65ACA8;
 }
 
 /* Subtabs */
