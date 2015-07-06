@@ -398,6 +398,17 @@ body.kssActive h1.formlibInlineEditable:hover {
     text-transform: uppercase;
     line-height: 30px;
     display: block;
+    position: relative;
+}
+#portal-siteactions li:first-child a:after
+{
+    content: '';
+    background: white;
+    position: absolute;
+    height: 50%;
+    width: 1px;
+    right: 0px;
+    top: 25%;
 }
 #portal-siteactions li.selected a {
     background-color: &dtml-globalBackgroundColor;;
@@ -654,6 +665,22 @@ form.searchPage input.searchButton {
     font-weight: normal;
     background-color: #537a7f;
     width: 160px;
+    position: relative;
+}
+#portal-globalnav li a:before {
+    content: '';
+    background: white;
+    position: absolute;
+    height: 50%;
+    width: 1px;
+    left: 0px;
+    top: 25%;
+}
+#portal-globalnav li:first-child a:before,
+#portal-globalnav li.selected a:before,
+#portal-globalnav li.selected + li a:before
+{
+    display: none;
 }
 #portal-globalnav li.iteration2 a,
 #portal-globalnav li.iteration3 a,
