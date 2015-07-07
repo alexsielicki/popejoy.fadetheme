@@ -20,7 +20,7 @@
     padding: 0 10px;
 }
 #mobile-logo {
-    height: 70px;
+    height: 100px;
 }
 #mobile-nav-button {
     float: right;

@@ -83,15 +83,16 @@ body.kssActive h1.formlibInlineEditable:hover {
 	margin-top: 20px;
 	position: absolute;
 	right: -325px;
-	background-color: #acd6d2;
+	background-color: #537a7f;
 	font-size: 17px;
+    color: white;
 }
 #homepage-body-text #parent-fieldname-text {
     padding: 20px;
 }
 #homepage-body-text h2 {
 	font-size: 21px;
-	color: #537a7f;
+	color: white;
 	border-bottom: 1px solid #c4c1c1;
 	line-height: 22px;
 	margin-top: 0;
@@ -108,11 +109,11 @@ body.kssActive h1.formlibInlineEditable:hover {
     margin-left: 0;
     list-style-type: none;
     list-style-image: none;
-    color: #19150a;
+    color: white;
     line-height: 20px;
 }
 #homepage-body-text a {
-    color: #19150a;
+    color: white;
 }
 #homepage-this-season-wrapper {
 	top: 0px;
@@ -1246,16 +1247,20 @@ table.plain th {
     clear: right;
     margin: 0 0 0.5em 1em;
 }
+.eventDetails table {
+    border-bottom-width: 0px;
+}
 .eventDetails table th,
 .eventDetails table td
 {
-    border-color: #19150A !important;
+    border-color: white !important;
 }
 .eventDetails td {
     color: black !important;
 }
 .eventDetails th {
     background-color: #6F6D6D !important;
+    color: white;
 }
 .template-performance_view .eventDetails {
     display: none;

@@ -5,7 +5,7 @@
     <div id="mobile-nav-header">
 	<a href="#" tal:attributes="href string:${context/portal_url};">
 	    <img id="mobile-logo" src="logo.jpg" alt="Popejoy Presents" 
-		tal:attributes="src string:${context/portal_url}/logo.gif;" />
+		tal:attributes="src string:${context/portal_url}/logo.png;" />
 	</a>
 	<div id="mobile-nav-button">
 	    <img id="search-icon" src="1388984099_icon-search.png" alt="Search" 

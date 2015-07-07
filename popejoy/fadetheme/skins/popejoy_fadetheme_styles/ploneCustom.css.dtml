@@ -37,7 +37,7 @@ div.calTabs a:visited
     
 }
 div.calTabs a.selected {
-    background-color: #f2a93d !important;
+    background-color: #e18256 !important;
     border-width: 0px !important;
     color: black !important;
 }
@@ -49,7 +49,7 @@ WIDTH: 100% !important;
 DIV.calTabs {
 padding-bottom: 0px !important;
 border-top: 1px solid white; /* Needed to remove white space in IE7 */
-border-bottom: 7px solid #f2a93d !important;
+border-bottom: 7px solid #e18256 !important;
 }
 
 table.calheader td.center {
@@ -103,8 +103,11 @@ TABLE.cal TR.noevent
 {
     background-color: #DBDBDB !important;
 }
+body.template-day TABLE.cal TR.event {
+    background-color: #e18256 !important;
+}
 body.template-day TABLE.cal TR.event:hover {
-    background-color: #375168 !important;
+    background-color: #537a7f !important;
 }
 body.template-day TABLE.cal TR.event:hover,
 body.template-day TABLE.cal TR.event:hover td,
@@ -168,7 +171,7 @@ TABLE.caltabs TD.body {
     display: none;
 }
 .portletCalendar .eventsHeading {
-    color: #999797;
+    color: white;
     font-size: 23px;
     text-align: left;
     border-bottom: 1px solid #999797;
@@ -315,10 +318,13 @@ dd.portletItem .navTreeItem a:hover
 {
     display: none;
 }
-table.listing a,
-table.cal .eventlisting a
+table.listing a
 {
     color: #538475;
+}
+table.cal .eventlisting a
+{
+    color: black;
 }
 .template-season_view h1 {
     border-bottom: 1px solid black;
