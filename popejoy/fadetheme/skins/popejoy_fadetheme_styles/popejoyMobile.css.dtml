@@ -20,15 +20,15 @@
     padding: 0 10px;
 }
 #mobile-logo {
-    height: 100px;
+    height: 90px;
 }
 #mobile-nav-button {
     float: right;
     padding: 0px 7px;
-    background-color: #383838;
+    background-color: #61a8a4;
 }
 #mobile-nav-button img {
-    background-color: #383838;
+    background-color: #61a8a4;
     height: 70px;
 }
 #mobile-nav-button #nav-icon {
@@ -46,11 +46,12 @@
     position: absolute;
     z-index: 99;
     width: 100%;
-    top: 159px;
+    top: 176px;
     background-color: #383838;
 }
 #portal-globalnav li {
     float: none;
+    border-bottom: 1px solid white;
 }
 #portal-globalnav li a {
     width: auto;
@@ -75,8 +76,8 @@
 #portal-siteactions li a {
     line-height: 30px;
     background-color: transparent !important;
-    color: #E1E1E1 !important;
-    font-size: 23px;
+    color: #4c4d4f !important;
+    font-size: 36px;
 }
 .section-front-page #portal-column-content {
     display: block;
@@ -119,8 +120,8 @@
     top: 0px;
     z-index: 9;
     margin: 0;
-    padding: 20px 0px 0px 0px;
-    background-color: #383838;
+    padding: 20px 0px 20px 0px;
+    background-color: #61a8a4;
     width: 641px;
     top: 81px;
 }
@@ -251,5 +252,33 @@ div.eventlisting {
 }
 .portletNavigationTree {
     margin-bottom: 20px;
+}
+
+/* 2015 updates */
+#homepage-this-season h3 a {
+    font-size: 23px;
+}
+.template-season_view img.tileImage {
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+.template-season_view h2 {
+    margin: 0px 0 !important;
+    font-size: 36px;
+}
+.template-season_view h2 a {
+    color: #527b7f !important;
+}
+.template-season_view .tileFooter a {
+    background-color: #61a8a4;
+    color: white;
+    padding: 6px 10px;
+}
+.template-show_view img.headerWideImage {
+    width: 100%;
+}
+.template-show_view #parent-fieldname-text img {
+     max-width: 100%;
 }
 /* </dtml-with> */
