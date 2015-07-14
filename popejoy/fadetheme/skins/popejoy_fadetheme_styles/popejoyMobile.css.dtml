@@ -106,6 +106,7 @@
 }
 .homepagePerformanceImage {
     width: 100%;
+    max-width: none !important;
     height: auto;
 }
 #portal-searchbox {
@@ -260,6 +261,7 @@ div.eventlisting {
 }
 .template-season_view img.tileImage {
     width: 100%;
+    max-width: none !important;
     height: auto;
     margin: 0;
 }
@@ -275,12 +277,6 @@ div.eventlisting {
     color: white;
     padding: 6px 10px;
 }
-.template-show_view img.headerWideImage {
-    width: 100%;
-}
-.template-show_view #parent-fieldname-text img {
-     max-width: 100%;
-}
 h2 {
     font-size: 30px;
 }
@@ -290,5 +286,14 @@ h2 {
 }
 .documentContent .performance-dates-wrapper ul {
     line-height: 30px;
+}
+#content img {
+    max-width: 598px;
+}
+.template-show_view #content img.headerWideImage,
+.template-performance_view #content img.headerWideImage
+{
+    width: 100%;
+    max-width: none;
 }
 /* </dtml-with> */
