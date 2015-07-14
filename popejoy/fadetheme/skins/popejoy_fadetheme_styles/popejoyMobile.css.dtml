@@ -281,4 +281,14 @@ div.eventlisting {
 .template-show_view #parent-fieldname-text img {
      max-width: 100%;
 }
+h2 {
+    font-size: 30px;
+}
+.performance-dates-wrapper {
+    font-size: 20px;
+    float: none;
+}
+.documentContent .performance-dates-wrapper ul {
+    line-height: 30px;
+}
 /* </dtml-with> */
