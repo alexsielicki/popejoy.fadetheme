@@ -280,7 +280,7 @@
 }
 .ploneCalendar .todaynoevent {
     border-collapse: collapse;
-    border: 2px &dtml-borderStyle; #f2a93d;
+    border: 2px &dtml-borderStyle; #E18256;
     background-color: white;
     font-weight: bold;
 }

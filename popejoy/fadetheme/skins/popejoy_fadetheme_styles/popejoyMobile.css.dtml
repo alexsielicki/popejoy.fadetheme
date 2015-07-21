@@ -156,12 +156,13 @@
 }
 .portletCalendar dt {
     font-size: 36px;
+    color: white;
 }
 .portletCalendar .eventsHeading {
     color: white;
 }
 .ploneCalendar .weekdays th {
-    
+    color: white;
 }
 .ploneCalendar td,
 .ploneCalendar th
@@ -197,7 +198,7 @@
 {
     display: block;
     width: 100%;
-    text-align: center;
+    text-align: left;
 }
 #portal-footer #homepage-bottom td:last-child h2 {
     border-bottom-width: 0;
@@ -271,11 +272,6 @@ div.eventlisting {
 }
 .template-season_view h2 a {
     color: #527b7f !important;
-}
-.template-season_view .tileFooter a {
-    background-color: #61a8a4;
-    color: white;
-    padding: 6px 10px;
 }
 h2 {
     font-size: 30px;
