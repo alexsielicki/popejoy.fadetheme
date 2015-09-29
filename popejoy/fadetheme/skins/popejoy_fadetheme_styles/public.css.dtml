@@ -349,6 +349,20 @@ body.kssActive h1.formlibInlineEditable:hover {
     -webkit-border-radius: 0;
     display: none;
 }
+#newsletter-signup a {
+    color: white !important;
+    background-color: #537A7F;
+    height: 22px;
+    padding: 6px 0px;
+    width: 230px;
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+}
+#newsletter-signup a:hover {
+    background-color: #65ACA8;
+    text-decoration: none !important;
+}
 
 /* The skin switcher at the top, only shows up if you have multiple skins available */
 #portal-skinswitcher {
