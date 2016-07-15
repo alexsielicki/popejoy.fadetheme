@@ -282,7 +282,7 @@ body.kssActive h1.formlibInlineEditable:hover {
 #portal-logo img {
     border: 0;
     padding: 0;
-    margin: 67px 0px 15px 15px;
+    margin: 0px 0px 15px 0px;
     width: 425px;
     height: auto;
 }
